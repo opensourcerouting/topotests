@@ -1,0 +1,278 @@
+## Color coding:
+#########################
+##  Main FRR: #f08080  red
+##  Switches: #d0e0d0  gray
+##  RIP:      #19e3d9  Cyan
+##  RIPng:    #fcb314  dark yellow
+##  OSPFv2:   #32b835  Green
+##  OSPFv3:   #19e3d9  Cyan
+##  ISIS IPv4 #fcb314  dark yellow
+##  ISIS IPv6 #9a81ec  purple
+##  BGP IPv4  #eee3d3  beige
+##  BGP IPv6  #fdff00  yellow
+##### Colors (see http://www.color-hex.com/)
+
+graph ospf_topo1 {
+	label="bgp topo1";
+
+	# Routers
+	r1 [
+		label="r1\nrtr-id 10.0.255.1/32",
+		shape=doubleoctagon,
+		fillcolor="#f08080",
+		style=filled,
+	];
+	r2 [
+		label="r2\nrtr-id 10.1.255.1/32",
+		shape=doubleoctagon,
+		fillcolor="#f08080",
+		style=filled,
+	];
+	r3 [
+		label="r3\nrtr-id 10.1.255.2/32",
+		shape=doubleoctagon,
+		fillcolor="#f08080",
+		style=filled,
+	];
+	r4 [
+		label="r4\nrtr-id 10.1.255.3/32",
+		shape=doubleoctagon,
+		fillcolor="#f08080",
+		style=filled,
+	];
+  r5 [
+		label="r5\nrtr-id 10.1.255.4/32",
+		shape=doubleoctagon,
+		fillcolor="#f08080",
+		style=filled,
+  ]
+  r6 [
+		label="r6\nrtr-id 10.1.255.5/32",
+		shape=doubleoctagon,
+		fillcolor="#f08080",
+		style=filled,
+  ]
+  r7 [
+		label="r7\nrtr-id 10.1.255.6/32",
+		shape=doubleoctagon,
+		fillcolor="#f08080",
+		style=filled,
+  ]
+  r8 [
+		label="r8\nrtr-id 10.1.255.7/32",
+		shape=doubleoctagon,
+		fillcolor="#f08080",
+		style=filled,
+  ]
+  r9 [
+		label="r9\nrtr-id 10.1.255.8/32",
+		shape=doubleoctagon,
+		fillcolor="#f08080",
+		style=filled,
+  ]
+  r10 [
+		label="r10\nrtr-id 10.1.255.9/32",
+		shape=doubleoctagon,
+		fillcolor="#f08080",
+		style=filled,
+  ]
+  r11 [
+		label="r11\nrtr-id 10.2.255.1/32",
+		shape=doubleoctagon,
+		fillcolor="#f08080",
+		style=filled,
+  ]
+  r12 [
+		label="r12\nrtr-id 10.3.255.1/32",
+		shape=doubleoctagon,
+		fillcolor="#f08080",
+		style=filled,
+  ]
+
+	# Switches
+	s1 [
+		label="s1\n10.0.1.0/24",
+		shape=oval,
+		fillcolor="#d0e0d0",
+		style=filled,
+	];
+	s2 [
+		label="s2\n172.16.1.0/24",
+		shape=oval,
+		fillcolor="#d0e0d0",
+		style=filled,
+	];
+	s3 [
+		label="s3\n172.16.2.0/24",
+		shape=oval,
+		fillcolor="#d0e0d0",
+		style=filled,
+	];
+	s4 [
+		label="s4\n172.16.3.0/24",
+		shape=oval,
+		fillcolor="#d0e0d0",
+		style=filled,
+	];
+	s5 [
+		label="s5\n172.16.4.0/24",
+		shape=oval,
+		fillcolor="#d0e0d0",
+		style=filled,
+	];
+	s6 [
+		label="s6\n172.16.5.0/24",
+		shape=oval,
+		fillcolor="#d0e0d0",
+		style=filled,
+	];
+	s7 [
+		label="s7\n172.16.6.0/24",
+		shape=oval,
+		fillcolor="#d0e0d0",
+		style=filled,
+	];
+	s8 [
+		label="s8\n172.16.7.0/24",
+		shape=oval,
+		fillcolor="#d0e0d0",
+		style=filled,
+	];
+	s9 [
+		label="s9\n172.16.8.0/24",
+		shape=oval,
+		fillcolor="#d0e0d0",
+		style=filled,
+	];
+	s10 [
+		label="s10\n172.16.9.0/24",
+		shape=oval,
+		fillcolor="#d0e0d0",
+		style=filled,
+	];
+	s11 [
+		label="s11\n172.16.10.0/24",
+		shape=oval,
+		fillcolor="#d0e0d0",
+		style=filled,
+	];
+	s12 [
+		label="s12\n172.16.11.0/24",
+		shape=oval,
+		fillcolor="#d0e0d0",
+		style=filled,
+	];
+	s13 [
+		label="s13\n172.16.12.0/24",
+		shape=oval,
+		fillcolor="#d0e0d0",
+		style=filled,
+	];
+	s14 [
+		label="s14\n172.16.13.0/24",
+		shape=oval,
+		fillcolor="#d0e0d0",
+		style=filled,
+	];
+	s15 [
+		label="s15\n172.16.14.0/24",
+		shape=oval,
+		fillcolor="#d0e0d0",
+		style=filled,
+	];
+	s16 [
+		label="s16\n172.16.15.0/24",
+		shape=oval,
+		fillcolor="#d0e0d0",
+		style=filled,
+	];
+	s17 [
+		label="s17\n172.16.16.0/24",
+		shape=oval,
+		fillcolor="#d0e0d0",
+		style=filled,
+	];
+	s18 [
+		label="s18\n172.16.17.0/24",
+		shape=oval,
+		fillcolor="#d0e0d0",
+		style=filled,
+	];
+	s19 [
+		label="s19\n172.16.18.0/24",
+		shape=oval,
+		fillcolor="#d0e0d0",
+		style=filled,
+	];
+  s20 [
+    label="s20\n10.0.2.0/24",
+		shape=oval,
+		fillcolor="#d0e0d0",
+		style=filled,
+  ]
+
+	# Connections
+  r1 -- s1 [label="eth0\n.1"];
+  r1 -- s2 [label="eth1\n.2"];
+  r1 -- s3 [label="eth2\n.2"];
+  r1 -- s4 [label="eth3\n.2"];
+  r1 -- s5 [label="eth4\n.2"];
+  r1 -- s6 [label="eth5\n.2"];
+  r1 -- s7 [label="eth6\n.2"];
+  r1 -- s8 [label="eth7\n.2"];
+  r1 -- s9 [label="eth8\n.2"];
+  r1 -- s10 [label="eth9\n.2"];
+
+  r2 -- s2 [label="eth0\n.1"];
+  r2 -- s11 [label="eth1\n.1"];
+
+  r3 -- s3 [label="eth0\n.1"];
+  r3 -- s12 [label="eth1\n.1"];
+
+  r4 -- s4 [label="eth0\n.1"];
+  r4 -- s13 [label="eth1\n.1"];
+
+  r5 -- s5 [label="eth0\n.1"];
+  r5 -- s14 [label="eth1\n.1"];
+
+  r6 -- s6 [label="eth0\n.1"];
+  r6 -- s15 [label="eth1\n.1"];
+
+  r7 -- s7 [label="eth0\n.1"];
+  r7 -- s16 [label="eth1\n.1"];
+
+  r8 -- s8 [label="eth0\n.1"];
+  r8 -- s17 [label="eth1\n.1"];
+
+  r9 -- s9 [label="eth0\n.1"];
+  r9 -- s18 [label="eth1\n.1"];
+
+  r10 -- s10 [label="eth0\n.1"];
+  r10 -- s19 [label="eth1\n.1"];
+
+  r11 -- s11 [label="eth0\n.2"];
+  r11 -- s12 [label="eth1\n.2"];
+  r11 -- s13 [label="eth2\n.2"];
+  r11 -- s14 [label="eth3\n.2"];
+  r11 -- s15 [label="eth4\n.2"];
+  r11 -- s16 [label="eth5\n.2"];
+  r11 -- s17 [label="eth6\n.2"];
+  r11 -- s18 [label="eth7\n.2"];
+  r11 -- s19 [label="eth8\n.2"];
+	r11 -- s20 [label="eth9\n.1"];
+
+	r12 -- s20 [label="eth0\n.2"];
+
+	# Reorder nodes to make the graph more human friendly
+	{ rank=same; r2; } --	{ rank=same; r3; } --	{ rank=same; r4; } --
+		{ rank=same; r5; } -- { rank=same; r6; } -- { rank=same; r7; } --
+			{ rank=same; r8; } -- { rank=same; r9; } -- { rank=same; r10; } [style=invis;];
+
+	{ rank=same; s2; } -- {rank=same; s3 } [style=invis;];
+	{ rank=same; s3; } -- {rank=same; s4 } [style=invis;];
+	{ rank=same; s4; } -- {rank=same; s5 } [style=invis;];
+	{ rank=same; s6; } -- {rank=same; s7 } [style=invis;];
+	{ rank=same; s7; } -- {rank=same; s8 } [style=invis;];
+	{ rank=same; s8; } -- {rank=same; s9 } [style=invis;];
+	{ rank=same; s9; } -- {rank=same; s10 } [style=invis;];
+}
