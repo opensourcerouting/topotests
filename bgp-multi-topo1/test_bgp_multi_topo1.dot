@@ -1,0 +1,141 @@
+## Color coding:
+#########################
+##  Main FRR: #f08080  red
+##  Switches: #d0e0d0  gray
+##  RIP:      #19e3d9  Cyan
+##  RIPng:    #fcb314  dark yellow
+##  OSPFv2:   #32b835  Green
+##  OSPFv3:   #19e3d9  Cyan
+##  ISIS IPv4 #fcb314  dark yellow
+##  ISIS IPv6 #9a81ec  purple
+##  BGP IPv4  #eee3d3  beige
+##  BGP IPv6  #fdff00  yellow
+##### Colors (see http://www.color-hex.com/)
+
+graph template {
+	label="bgp multi topo1";
+
+	# Routers
+	r10 [ shape=doubleoctagon, label="r10", fillcolor="#f08080", style=filled ];
+	r11 [ shape=doubleoctagon, label="r11", fillcolor="#f08080", style=filled ];
+
+	r1 [ shape=doubleoctagon, label="r1", fillcolor="#f08080", style=filled ];
+	r2 [ shape=doubleoctagon, label="r2", fillcolor="#f08080", style=filled ];
+	r3 [ shape=doubleoctagon, label="r3", fillcolor="#f08080", style=filled ];
+
+	r20 [ shape=doubleoctagon, label="r20", fillcolor="#f08080", style=filled ];
+	r21 [ shape=doubleoctagon, label="r21", fillcolor="#f08080", style=filled ];
+
+	r30 [ shape=doubleoctagon, label="r30", fillcolor="#f08080", style=filled ];
+	r31 [ shape=doubleoctagon, label="r31", fillcolor="#f08080", style=filled ];
+
+	# Switches
+	s10 [ shape=oval, label="s10\n10.1.1.0/24", fillcolor="#d0e0d0", style=filled ];
+	s11 [ shape=oval, label="s11\n10.1.2.0/24", fillcolor="#d0e0d0", style=filled ];
+	s12 [ shape=oval, label="s12\n10.1.0.0/24", fillcolor="#d0e0d0", style=filled ];
+	s13 [ shape=oval, label="s13\n10.253.10.0/24", fillcolor="#d0e0d0", style=filled ];
+
+	s1 [ shape=oval, label="s1\n10.253.0.0/24", fillcolor="#d0e0d0", style=filled ];
+	s2 [ shape=oval, label="s2\n10.253.1.0/24", fillcolor="#d0e0d0", style=filled ];
+	s3 [ shape=oval, label="s3\n10.253.2.0/24", fillcolor="#d0e0d0", style=filled ];
+
+	s20 [ shape=oval, label="s20\n10.253.20.0/24", fillcolor="#d0e0d0", style=filled ];
+	s21 [ shape=oval, label="s21\n10.253.21.0/24", fillcolor="#d0e0d0", style=filled ];
+	s22 [ shape=oval, label="s22\n10.2.0.0/24", fillcolor="#d0e0d0", style=filled ];
+	s23 [ shape=oval, label="s23\n10.2.1.0/24", fillcolor="#d0e0d0", style=filled ];
+	s24 [ shape=oval, label="s24\n10.2.2.0/24", fillcolor="#d0e0d0", style=filled ];
+
+	s30 [ shape=oval, label="s30\n10.253.30.0/24", fillcolor="#d0e0d0", style=filled ];
+	s31 [ shape=oval, label="s31\n10.253.31.0/24", fillcolor="#d0e0d0", style=filled ];
+	s32 [ shape=oval, label="s32\n10.3.0.0/24", fillcolor="#d0e0d0", style=filled ];
+	s33 [ shape=oval, label="s33\n10.3.1.0/24", fillcolor="#d0e0d0", style=filled ];
+	s34 [ shape=oval, label="s34\n10.3.2.0/24", fillcolor="#d0e0d0", style=filled ];
+
+  # Peers
+  peer20 [ shape=rectangle, label="peer20\nAS20", fillcolor="#eee3d3", style=filled ];
+  peer21 [ shape=rectangle, label="peer21\nAS20", fillcolor="#eee3d3", style=filled ];
+  peer22 [ shape=rectangle, label="peer22\nAS20", fillcolor="#eee3d3", style=filled ];
+  peer23 [ shape=rectangle, label="peer23\nAS20", fillcolor="#eee3d3", style=filled ];
+
+  peer30 [ shape=rectangle, label="peer30\nAS31", fillcolor="#eee3d3", style=filled ];
+  peer31 [ shape=rectangle, label="peer31\nAS32", fillcolor="#eee3d3", style=filled ];
+  peer32 [ shape=rectangle, label="peer32\nAS33", fillcolor="#eee3d3", style=filled ];
+  peer33 [ shape=rectangle, label="peer33\nAS34", fillcolor="#eee3d3", style=filled ];
+
+	# Connections
+  subgraph cluster10 {
+    label="AS 10 - Single homed";
+    shape=oval;
+
+    r10 -- s10 [label="eth0\n.1"]; # internal network 1
+    r10 -- s11 [label="eth1\n.1"]; # internal network 2
+    r10 -- s12 [label="eth2\n.2"]; # bgp router
+
+    r11 -- s12 [label="eth0\n.1"]; # internal network
+  }
+  subgraph cluster20 {
+    label="AS 20 - Multi homed - non transit";
+    shape=oval;
+
+    r20 -- s22 [label="eth0\n.1"]; # ibgp: as 20
+    r20 -- s23 [label="eth1\n.1"]; # internal network
+
+    r21 -- s22 [label="eth0\n.2"]; # ibgp: as 20
+    r21 -- s24 [label="eth1\n.1"]; # internal network
+
+    peer20 -- s23 [label="eth0\n.10"];
+    peer21 -- s23 [label="eth0\n.11"];
+    peer22 -- s24 [label="eth0\n.10"];
+    peer23 -- s24 [label="eth0\n.11"];
+
+    {rank=same; r20 r21} --
+      {rank=same; s22 s23 s24} --
+      {rank=same; peer20 peer21 peer22 peer23} [style=invis];
+  }
+  subgraph cluster1 {
+    label="AS 1";
+    shape=oval;
+
+    r1 -- s1 [label="eth0\n.1"]; # ibgp: as 1
+    r1 -- s2 [label="eth1\n.1"]; # ibgp: as 1
+
+    r2 -- s2 [label="eth0\n.2"]; # ibgp: as 1
+    r2 -- s3 [label="eth1\n.2"]; # ibgp: as 1
+
+    r3 -- s1 [label="eth0\n.2"]; # ibgp: as 1
+    r3 -- s3 [label="eth1\n.1"]; # ibgp: as 1
+  } --
+  subgraph cluster30 {
+    label="AS 30 - multi homed - transit";
+    shape=oval;
+
+    r30 -- s32 [label="eth0\n.1"]; # ibgp: as 30
+    r30 -- s33 [label="eth1\n.1"]; # internal network
+
+    r31 -- s32 [label="eth0\n.2"]; # ibgp: as 30
+    r31 -- s34 [label="eth1\n.1"]; # internal network
+
+    peer30 -- s33 [label="eth0\n.10"];
+    peer31 -- s33 [label="eth0\n.11"];
+    peer32 -- s34 [label="eth0\n.10"];
+    peer33 -- s34 [label="eth0\n.11"];
+    {rank=same; r30 r31} --
+      {rank=same; s32 s33 s34} --
+      {rank=same; peer30 peer31 peer32 peer33} [style=invis];
+  } [style=invis];
+
+  r1 -- s13 [label="eth2\n.1"]; # ebgp: as 10
+  r2 -- s20 [label="eth2\n.1"]; # ebgp: as 20
+  r3 -- s21 [label="eth2\n.1"]; # ebgp: as 20
+  r2 -- s30 [label="eth3\n.1"]; # ebgp: as 30
+  r3 -- s31 [label="eth3\n.1"]; # ebgp: as 30
+  r11 -- s13 [label="eth1\n.2"]; # ebgp: as 1
+  r20 -- s20 [label="eth2\n.2"]; # ebgp: as 1
+  r21 -- s21 [label="eth2\n.2"]; # ebgp: as 1
+  r30 -- s30 [label="eth2\n.2"]; # ebgp: as 1
+  r31 -- s31 [label="eth2\n.2"]; # ebgp: as 1
+
+  # Sort
+  s20 -- s21 [style=invis];
+  { rank=same; s30 s31 } -- r30 [style=invis];
+}
