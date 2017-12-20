@@ -87,16 +87,32 @@ def setup_module(mod):
     tgen = Topogen(ISISTopo1, mod.__name__)
     tgen.start_topology()
 
+    # FIXME: test for FRR 2.0 routers, if they exist then switch configuration
+    # for IPv4 only. Currently there is a IPv6 ISIS convergence bug.
+    old_routers = check_old_routers(tgen)
+    if old_routers:
+        logger.info('Loading IPv4 only configuration')
+
     # For all registered routers, load the zebra configuration file
     for rname, router in tgen.routers().iteritems():
-        router.load_config(
-            TopoRouter.RD_ZEBRA,
-            os.path.join(CWD, '{}/zebra.conf'.format(rname))
-        )
-        router.load_config(
-            TopoRouter.RD_ISIS,
-            os.path.join(CWD, '{}/isisd.conf'.format(rname))
-        )
+        if not old_routers:
+            router.load_config(
+                TopoRouter.RD_ZEBRA,
+                os.path.join(CWD, '{}/zebra.conf'.format(rname))
+            )
+            router.load_config(
+                TopoRouter.RD_ISIS,
+                os.path.join(CWD, '{}/isisd.conf'.format(rname))
+            )
+        else:
+            router.load_config(
+                TopoRouter.RD_ZEBRA,
+                os.path.join(CWD, '{}/zebra20.conf'.format(rname))
+            )
+            router.load_config(
+                TopoRouter.RD_ISIS,
+                os.path.join(CWD, '{}/isisd20.conf'.format(rname))
+            )
 
     # After loading the configurations, this function loads configured daemons.
     tgen.start_router()
@@ -126,7 +142,13 @@ def test_isis_convergence():
     #     )
 
     for rname, router in tgen.routers().iteritems():
-        filename = '{0}/{1}/{1}_topology.json'.format(CWD, rname)
+        if router.has_version('>=', '3'):
+            filename = '{0}/{1}/{1}_topology.json'.format(CWD, rname)
+        else:
+            # FIXME: FRR 2.0.2 and less is broken when converging with IPv6,
+            # only IPv4 routes converge.
+            filename = '{0}/{1}/{1}_topology20.json'.format(CWD, rname)
+
         expected = json.loads(open(filename, 'r').read())
         actual = show_isis_topology(router)
         assertmsg = "Router '{}' topology mismatch".format(rname)
@@ -344,3 +366,19 @@ def show_isis_topology(router):
 
     dict_merge(l1, l2)
     return l1
+
+
+def check_old_routers(tgen):
+    """
+    Check if there are routers running FRR 2.0.
+    """
+    router = tgen.gears['r1']
+    router.load_config(
+        TopoRouter.RD_ZEBRA,
+        os.path.join(CWD, '{}/zebra.conf'.format(router.name))
+    )
+    router.start()
+    has_20 = router.has_version('<', '3')
+    router.stop()
+
+    return has_20
