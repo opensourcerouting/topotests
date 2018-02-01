@@ -38,36 +38,36 @@ def test_adjacencies():
     CliOnFail = None
     # For debugging, uncomment the next line
     #CliOnFail = 'tgen.mininet_cli'
-    CheckFunc = 'versionCheck(\'3.1\')'
+    CheckFunc = 'versionCheck(\'3.1\', mpls=True)'
     #uncomment next line to start cli *before* script is run
-    #CheckFunc = 'versionCheck(\'3.1\', cli=True)'
+    #CheckFunc = 'versionCheck(\'3.1\', mpls=True, cli=True)'
     ltemplateTest('scripts/adjacencies.py', False, CliOnFail, CheckFunc)
 
 def test_add_routes():
     CliOnFail = None
     # For debugging, uncomment the next line
     #CliOnFail = 'tgen.mininet_cli'
-    CheckFunc = 'versionCheck(\'3.1\')'
+    CheckFunc = 'versionCheck(\'3.1\', mpls=True)'
     #uncomment next line to start cli *before* script is run
-    #CheckFunc = 'versionCheck(\'3.1\', cli=True)'
+    #CheckFunc = 'versionCheck(\'3.1\', mpls=True, cli=True)'
     ltemplateTest('scripts/add_routes.py', False, CliOnFail, CheckFunc)
 
 def test_check_routes():
     CliOnFail = None
     # For debugging, uncomment the next line
     #CliOnFail = 'tgen.mininet_cli'
-    CheckFunc = 'versionCheck(\'3.1\')'
+    CheckFunc = 'versionCheck(\'3.1\', mpls=True)'
     #uncomment next line to start cli *before* script is run
-    #CheckFunc = 'versionCheck(\'3.1\', cli=True)'
+    #CheckFunc = 'versionCheck(\'3.1\', mpls=True, cli=True)'
     ltemplateTest('scripts/check_routes.py', False, CliOnFail, CheckFunc)
 
 def test_cleanup_all():
     CliOnFail = None
     # For debugging, uncomment the next line
     #CliOnFail = 'tgen.mininet_cli'
-    CheckFunc = 'versionCheck(\'3.1\')'
+    CheckFunc = 'versionCheck(\'3.1\', mpls=True)'
     #uncomment next line to start cli *before* script is run
-    #CheckFunc = 'versionCheck(\'3.1\', cli=True)'
+    #CheckFunc = 'versionCheck(\'3.1\', mpls=True, cli=True)'
     ltemplateTest('scripts/cleanup_all.py', False, CliOnFail, CheckFunc)
 
 if __name__ == '__main__':

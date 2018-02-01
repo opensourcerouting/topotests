@@ -75,6 +75,7 @@ r3-eth1 .3 |  | .3  r3-eth0      | .4 r4-eth0
 
 import os
 import sys
+import platform
 import pytest
 
 # pylint: disable=C0413
@@ -156,7 +157,7 @@ def ltemplatePostRouterStartHook():
     logger.info('post router-start hook')
     return;
 
-def versionCheck(vstr, rname='r1', compstr='<',cli=False):
+def versionCheck(vstr, rname='r1', compstr='<', cli=False, mpls=False):
     tgen = get_topogen()
 
     router = tgen.gears[rname]
@@ -170,8 +171,28 @@ def versionCheck(vstr, rname='r1', compstr='<',cli=False):
     if ret == False:
         ret = 'Skipping main tests on old version ({}{})'.format(compstr, vstr)
         logger.info(ret)
+
+    if mpls:
+        # Test MPLS availability
+        krel = platform.release()
+        if topotest.version_cmp(krel, '4.5') < 0:
+            ret = False
+            logger.debug('MPLS Kernel version check failed (4.5 min Required), version {}'.format(krel))
+
+        # Test for MPLS Kernel modules available
+        if os.system('/sbin/modprobe -n mpls-router') != 0:
+            ret = False
+            logger.debug('MPLS Kernel module failed (mpls-router missing)')
+        if os.system('/sbin/modprobe -n mpls-iptunnel') != 0:
+            ret = False
+            logger.debug('MPLS Kernel module failed (mpls-iptunnel missing)')
+
+    if ret == False:
+        ret = 'Skipping main tests without MPLS'
+        logger.info(ret)
     if cli:
         logger.info('calling mininet CLI')
         tgen.mininet_cli()
         logger.info('exited mininet CLI')
+
     return ret
