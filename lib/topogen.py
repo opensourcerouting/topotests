@@ -527,6 +527,7 @@ class TopoRouter(TopoGear):
     RD_PIM = 9
     RD_EIGRP = 10
     RD_NHRP = 11
+    RD_FABRICD = 12
     RD = {
         RD_ZEBRA: 'zebra',
         RD_RIP: 'ripd',
@@ -539,6 +540,7 @@ class TopoRouter(TopoGear):
         RD_LDP: 'ldpd',
         RD_EIGRP: 'eigrpd',
         RD_NHRP: 'nhrpd',
+        RD_FABRICD: 'fabricd',
     }
 
     def __init__(self, tgen, cls, name, **params):
@@ -985,7 +987,7 @@ def diagnose_env():
             logger.warning('could not find "frrvty" group')
 
         for fname in ['zebra', 'ospfd', 'ospf6d', 'bgpd', 'ripd', 'ripngd',
-                      'isisd', 'pimd', 'ldpd']:
+                      'isisd', 'pimd', 'ldpd', 'fabricd']:
             path = os.path.join(frrdir, fname)
             if not os.path.isfile(path):
                 # LDPd is an exception
@@ -1030,7 +1032,7 @@ def diagnose_env():
             logger.warning('could not find "quaggavty" group')
 
         for fname in ['zebra', 'ospfd', 'ospf6d', 'bgpd', 'ripd', 'ripngd',
-                      'isisd', 'pimd']:
+                      'isisd', 'pimd', 'fabricd']:
             path = os.path.join(quaggadir, fname)
             if not os.path.isfile(path):
                 logger.warning('could not find {} in {}'.format(fname, quaggadir))
