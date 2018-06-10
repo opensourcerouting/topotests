@@ -714,14 +714,6 @@
           "afi": "ipv6"
         }, 
         {
-          "interfaceName": "a3-d2-eth6", 
-          "fib": true, 
-          "flags": 11, 
-          "active": true, 
-          "onLink": true, 
-          "afi": "ipv6"
-        }, 
-        {
           "interfaceName": "a3-b2-eth2", 
           "fib": true, 
           "flags": 11, 
@@ -731,6 +723,14 @@
         }, 
         {
           "interfaceName": "a3-c2-eth4", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a3-d2-eth6", 
           "fib": true, 
           "flags": 11, 
           "active": true, 
@@ -1178,7 +1178,7 @@
       "nexthops": [
         {
           "directlyConnected": true, 
-          "interfaceName": "a3-d2-eth6", 
+          "interfaceName": "a3-a2-eth0", 
           "fib": true, 
           "flags": 3, 
           "active": true
@@ -1204,32 +1204,6 @@
       "nexthops": [
         {
           "directlyConnected": true, 
-          "interfaceName": "a3-b2-eth2", 
-          "fib": true, 
-          "flags": 3, 
-          "active": true
-        }
-      ]
-    }, 
-    {
-      "protocol": "connected", 
-      "prefix": "fe80::/64", 
-      "nexthops": [
-        {
-          "directlyConnected": true, 
-          "interfaceName": "a3-a2-eth0", 
-          "fib": true, 
-          "flags": 3, 
-          "active": true
-        }
-      ]
-    }, 
-    {
-      "protocol": "connected", 
-      "prefix": "fe80::/64", 
-      "nexthops": [
-        {
-          "directlyConnected": true, 
           "interfaceName": "a3-b4-eth3", 
           "fib": true, 
           "flags": 3, 
@@ -1243,7 +1217,7 @@
       "nexthops": [
         {
           "directlyConnected": true, 
-          "interfaceName": "a3-c2-eth4", 
+          "interfaceName": "a3-a4-eth1", 
           "fib": true, 
           "flags": 3, 
           "active": true
@@ -1269,7 +1243,33 @@
       "nexthops": [
         {
           "directlyConnected": true, 
-          "interfaceName": "a3-a4-eth1", 
+          "interfaceName": "a3-c2-eth4", 
+          "fib": true, 
+          "flags": 3, 
+          "active": true
+        }
+      ]
+    }, 
+    {
+      "protocol": "connected", 
+      "prefix": "fe80::/64", 
+      "nexthops": [
+        {
+          "directlyConnected": true, 
+          "interfaceName": "a3-b2-eth2", 
+          "fib": true, 
+          "flags": 3, 
+          "active": true
+        }
+      ]
+    }, 
+    {
+      "protocol": "connected", 
+      "prefix": "fe80::/64", 
+      "nexthops": [
+        {
+          "directlyConnected": true, 
+          "interfaceName": "a3-d2-eth6", 
           "fib": true, 
           "flags": 3, 
           "active": true

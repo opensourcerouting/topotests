@@ -1538,6 +1538,19 @@
       "nexthops": [
         {
           "directlyConnected": true, 
+          "interfaceName": "a4-b3-eth1", 
+          "fib": true, 
+          "flags": 3, 
+          "active": true
+        }
+      ]
+    }, 
+    {
+      "protocol": "connected", 
+      "prefix": "fe80::/64", 
+      "nexthops": [
+        {
+          "directlyConnected": true, 
           "interfaceName": "a4-a3-eth0", 
           "fib": true, 
           "flags": 3, 
@@ -1565,19 +1578,6 @@
         {
           "directlyConnected": true, 
           "interfaceName": "a4-c3-eth2", 
-          "fib": true, 
-          "flags": 3, 
-          "active": true
-        }
-      ]
-    }, 
-    {
-      "protocol": "connected", 
-      "prefix": "fe80::/64", 
-      "nexthops": [
-        {
-          "directlyConnected": true, 
-          "interfaceName": "a4-b3-eth1", 
           "fib": true, 
           "flags": 3, 
           "active": true

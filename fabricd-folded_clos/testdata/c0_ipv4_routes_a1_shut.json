@@ -9,6 +9,7 @@
       "nexthops": [
         {
           "interfaceName": "c0-b1-eth1", 
+          "ip": "10.0.0.64", 
           "fib": true, 
           "flags": 11, 
           "active": true, 
@@ -17,6 +18,7 @@
         }, 
         {
           "interfaceName": "c0-c1-eth2", 
+          "ip": "10.0.0.97", 
           "fib": true, 
           "flags": 11, 
           "active": true, 
@@ -25,6 +27,7 @@
         }, 
         {
           "interfaceName": "c0-d1-eth3", 
+          "ip": "10.0.0.99", 
           "fib": true, 
           "flags": 11, 
           "active": true, 
@@ -44,6 +47,7 @@
       "nexthops": [
         {
           "interfaceName": "c0-b1-eth1", 
+          "ip": "10.0.0.64", 
           "fib": true, 
           "flags": 11, 
           "active": true, 
@@ -52,6 +56,7 @@
         }, 
         {
           "interfaceName": "c0-c1-eth2", 
+          "ip": "10.0.0.97", 
           "fib": true, 
           "flags": 11, 
           "active": true, 
@@ -60,6 +65,7 @@
         }, 
         {
           "interfaceName": "c0-d1-eth3", 
+          "ip": "10.0.0.99", 
           "fib": true, 
           "flags": 11, 
           "active": true, 
@@ -79,6 +85,7 @@
       "nexthops": [
         {
           "interfaceName": "c0-b1-eth1", 
+          "ip": "10.0.0.64", 
           "fib": true, 
           "flags": 11, 
           "active": true, 
@@ -98,6 +105,7 @@
       "nexthops": [
         {
           "interfaceName": "c0-d1-eth3", 
+          "ip": "10.0.0.99", 
           "fib": true, 
           "flags": 11, 
           "active": true, 
@@ -117,6 +125,7 @@
       "nexthops": [
         {
           "interfaceName": "c0-b1-eth1", 
+          "ip": "10.0.0.64", 
           "fib": true, 
           "flags": 11, 
           "active": true, 
@@ -125,6 +134,7 @@
         }, 
         {
           "interfaceName": "c0-c1-eth2", 
+          "ip": "10.0.0.97", 
           "fib": true, 
           "flags": 11, 
           "active": true, 
@@ -133,6 +143,7 @@
         }, 
         {
           "interfaceName": "c0-d1-eth3", 
+          "ip": "10.0.0.99", 
           "fib": true, 
           "flags": 11, 
           "active": true, 
@@ -152,6 +163,7 @@
       "nexthops": [
         {
           "interfaceName": "c0-b1-eth1", 
+          "ip": "10.0.0.64", 
           "fib": true, 
           "flags": 11, 
           "active": true, 
@@ -160,6 +172,7 @@
         }, 
         {
           "interfaceName": "c0-c1-eth2", 
+          "ip": "10.0.0.97", 
           "fib": true, 
           "flags": 11, 
           "active": true, 
@@ -168,6 +181,7 @@
         }, 
         {
           "interfaceName": "c0-d1-eth3", 
+          "ip": "10.0.0.99", 
           "fib": true, 
           "flags": 11, 
           "active": true, 
@@ -187,6 +201,7 @@
       "nexthops": [
         {
           "interfaceName": "c0-b1-eth1", 
+          "ip": "10.0.0.64", 
           "fib": true, 
           "flags": 11, 
           "active": true, 
@@ -195,6 +210,7 @@
         }, 
         {
           "interfaceName": "c0-c1-eth2", 
+          "ip": "10.0.0.97", 
           "fib": true, 
           "flags": 11, 
           "active": true, 
@@ -203,6 +219,7 @@
         }, 
         {
           "interfaceName": "c0-d1-eth3", 
+          "ip": "10.0.0.99", 
           "fib": true, 
           "flags": 11, 
           "active": true, 
@@ -222,6 +239,7 @@
       "nexthops": [
         {
           "interfaceName": "c0-c1-eth2", 
+          "ip": "10.0.0.97", 
           "fib": true, 
           "flags": 11, 
           "active": true, 
@@ -241,6 +259,7 @@
       "nexthops": [
         {
           "interfaceName": "c0-b1-eth1", 
+          "ip": "10.0.0.64", 
           "fib": true, 
           "flags": 11, 
           "active": true, 
@@ -249,6 +268,7 @@
         }, 
         {
           "interfaceName": "c0-c1-eth2", 
+          "ip": "10.0.0.97", 
           "fib": true, 
           "flags": 11, 
           "active": true, 
@@ -257,6 +277,7 @@
         }, 
         {
           "interfaceName": "c0-d1-eth3", 
+          "ip": "10.0.0.99", 
           "fib": true, 
           "flags": 11, 
           "active": true, 
@@ -276,6 +297,7 @@
       "nexthops": [
         {
           "interfaceName": "c0-c1-eth2", 
+          "ip": "10.0.0.97", 
           "fib": true, 
           "flags": 11, 
           "active": true, 
@@ -295,6 +317,7 @@
       "nexthops": [
         {
           "interfaceName": "c0-b1-eth1", 
+          "ip": "10.0.0.64", 
           "fib": true, 
           "flags": 11, 
           "active": true, 
@@ -303,6 +326,7 @@
         }, 
         {
           "interfaceName": "c0-c1-eth2", 
+          "ip": "10.0.0.97", 
           "fib": true, 
           "flags": 11, 
           "active": true, 
@@ -311,6 +335,7 @@
         }, 
         {
           "interfaceName": "c0-d1-eth3", 
+          "ip": "10.0.0.99", 
           "fib": true, 
           "flags": 11, 
           "active": true, 
@@ -330,6 +355,7 @@
       "nexthops": [
         {
           "interfaceName": "c0-b1-eth1", 
+          "ip": "10.0.0.64", 
           "fib": true, 
           "flags": 11, 
           "active": true, 
@@ -349,6 +375,7 @@
       "nexthops": [
         {
           "interfaceName": "c0-b1-eth1", 
+          "ip": "10.0.0.64", 
           "fib": true, 
           "flags": 11, 
           "active": true, 
@@ -357,6 +384,7 @@
         }, 
         {
           "interfaceName": "c0-c1-eth2", 
+          "ip": "10.0.0.97", 
           "fib": true, 
           "flags": 11, 
           "active": true, 
@@ -365,6 +393,7 @@
         }, 
         {
           "interfaceName": "c0-d1-eth3", 
+          "ip": "10.0.0.99", 
           "fib": true, 
           "flags": 11, 
           "active": true, 
@@ -384,6 +413,7 @@
       "nexthops": [
         {
           "interfaceName": "c0-b1-eth1", 
+          "ip": "10.0.0.64", 
           "fib": true, 
           "flags": 11, 
           "active": true, 
@@ -392,6 +422,7 @@
         }, 
         {
           "interfaceName": "c0-c1-eth2", 
+          "ip": "10.0.0.97", 
           "fib": true, 
           "flags": 11, 
           "active": true, 
@@ -400,6 +431,7 @@
         }, 
         {
           "interfaceName": "c0-d1-eth3", 
+          "ip": "10.0.0.99", 
           "fib": true, 
           "flags": 11, 
           "active": true, 
@@ -419,6 +451,7 @@
       "nexthops": [
         {
           "interfaceName": "c0-b1-eth1", 
+          "ip": "10.0.0.64", 
           "fib": true, 
           "flags": 11, 
           "active": true, 
@@ -427,6 +460,7 @@
         }, 
         {
           "interfaceName": "c0-c1-eth2", 
+          "ip": "10.0.0.97", 
           "fib": true, 
           "flags": 11, 
           "active": true, 
@@ -435,6 +469,7 @@
         }, 
         {
           "interfaceName": "c0-d1-eth3", 
+          "ip": "10.0.0.99", 
           "fib": true, 
           "flags": 11, 
           "active": true, 
@@ -454,6 +489,7 @@
       "nexthops": [
         {
           "interfaceName": "c0-b1-eth1", 
+          "ip": "10.0.0.64", 
           "fib": true, 
           "flags": 11, 
           "active": true, 
@@ -462,6 +498,7 @@
         }, 
         {
           "interfaceName": "c0-c1-eth2", 
+          "ip": "10.0.0.97", 
           "fib": true, 
           "flags": 11, 
           "active": true, 
@@ -470,6 +507,7 @@
         }, 
         {
           "interfaceName": "c0-d1-eth3", 
+          "ip": "10.0.0.99", 
           "fib": true, 
           "flags": 11, 
           "active": true, 
@@ -489,6 +527,7 @@
       "nexthops": [
         {
           "interfaceName": "c0-b1-eth1", 
+          "ip": "10.0.0.64", 
           "fib": true, 
           "flags": 11, 
           "active": true, 
@@ -497,6 +536,7 @@
         }, 
         {
           "interfaceName": "c0-c1-eth2", 
+          "ip": "10.0.0.97", 
           "fib": true, 
           "flags": 11, 
           "active": true, 
@@ -505,6 +545,7 @@
         }, 
         {
           "interfaceName": "c0-d1-eth3", 
+          "ip": "10.0.0.99", 
           "fib": true, 
           "flags": 11, 
           "active": true, 
@@ -524,6 +565,7 @@
       "nexthops": [
         {
           "interfaceName": "c0-b1-eth1", 
+          "ip": "10.0.0.64", 
           "fib": true, 
           "flags": 11, 
           "active": true, 
@@ -532,6 +574,7 @@
         }, 
         {
           "interfaceName": "c0-c1-eth2", 
+          "ip": "10.0.0.97", 
           "fib": true, 
           "flags": 11, 
           "active": true, 
@@ -540,6 +583,7 @@
         }, 
         {
           "interfaceName": "c0-d1-eth3", 
+          "ip": "10.0.0.99", 
           "fib": true, 
           "flags": 11, 
           "active": true, 
@@ -559,6 +603,7 @@
       "nexthops": [
         {
           "interfaceName": "c0-b1-eth1", 
+          "ip": "10.0.0.64", 
           "fib": true, 
           "flags": 11, 
           "active": true, 
@@ -567,6 +612,7 @@
         }, 
         {
           "interfaceName": "c0-c1-eth2", 
+          "ip": "10.0.0.97", 
           "fib": true, 
           "flags": 11, 
           "active": true, 
@@ -575,6 +621,7 @@
         }, 
         {
           "interfaceName": "c0-d1-eth3", 
+          "ip": "10.0.0.99", 
           "fib": true, 
           "flags": 11, 
           "active": true, 
@@ -594,6 +641,7 @@
       "nexthops": [
         {
           "interfaceName": "c0-c1-eth2", 
+          "ip": "10.0.0.97", 
           "fib": true, 
           "flags": 11, 
           "active": true, 
@@ -612,6 +660,7 @@
       "nexthops": [
         {
           "interfaceName": "c0-c1-eth2", 
+          "ip": "10.0.0.97", 
           "flags": 9, 
           "active": true, 
           "onLink": true, 
@@ -644,6 +693,7 @@
       "nexthops": [
         {
           "interfaceName": "c0-b1-eth1", 
+          "ip": "10.0.0.64", 
           "fib": true, 
           "flags": 11, 
           "active": true, 
@@ -663,6 +713,7 @@
       "nexthops": [
         {
           "interfaceName": "c0-b1-eth1", 
+          "ip": "10.0.0.64", 
           "fib": true, 
           "flags": 11, 
           "active": true, 
@@ -671,6 +722,7 @@
         }, 
         {
           "interfaceName": "c0-c1-eth2", 
+          "ip": "10.0.0.97", 
           "fib": true, 
           "flags": 11, 
           "active": true, 
@@ -679,6 +731,7 @@
         }, 
         {
           "interfaceName": "c0-d1-eth3", 
+          "ip": "10.0.0.99", 
           "fib": true, 
           "flags": 11, 
           "active": true, 
@@ -698,6 +751,7 @@
       "nexthops": [
         {
           "interfaceName": "c0-b1-eth1", 
+          "ip": "10.0.0.64", 
           "fib": true, 
           "flags": 11, 
           "active": true, 
@@ -706,6 +760,7 @@
         }, 
         {
           "interfaceName": "c0-c1-eth2", 
+          "ip": "10.0.0.97", 
           "fib": true, 
           "flags": 11, 
           "active": true, 
@@ -714,6 +769,7 @@
         }, 
         {
           "interfaceName": "c0-d1-eth3", 
+          "ip": "10.0.0.99", 
           "fib": true, 
           "flags": 11, 
           "active": true, 
@@ -733,6 +789,7 @@
       "nexthops": [
         {
           "interfaceName": "c0-b1-eth1", 
+          "ip": "10.0.0.64", 
           "fib": true, 
           "flags": 11, 
           "active": true, 
@@ -741,6 +798,7 @@
         }, 
         {
           "interfaceName": "c0-c1-eth2", 
+          "ip": "10.0.0.97", 
           "fib": true, 
           "flags": 11, 
           "active": true, 
@@ -749,6 +807,7 @@
         }, 
         {
           "interfaceName": "c0-d1-eth3", 
+          "ip": "10.0.0.99", 
           "fib": true, 
           "flags": 11, 
           "active": true, 
@@ -768,6 +827,7 @@
       "nexthops": [
         {
           "interfaceName": "c0-b1-eth1", 
+          "ip": "10.0.0.64", 
           "fib": true, 
           "flags": 11, 
           "active": true, 
@@ -787,6 +847,7 @@
       "nexthops": [
         {
           "interfaceName": "c0-d1-eth3", 
+          "ip": "10.0.0.99", 
           "fib": true, 
           "flags": 11, 
           "active": true, 
@@ -806,6 +867,7 @@
       "nexthops": [
         {
           "interfaceName": "c0-b1-eth1", 
+          "ip": "10.0.0.64", 
           "fib": true, 
           "flags": 11, 
           "active": true, 
@@ -814,6 +876,7 @@
         }, 
         {
           "interfaceName": "c0-c1-eth2", 
+          "ip": "10.0.0.97", 
           "fib": true, 
           "flags": 11, 
           "active": true, 
@@ -822,6 +885,7 @@
         }, 
         {
           "interfaceName": "c0-d1-eth3", 
+          "ip": "10.0.0.99", 
           "fib": true, 
           "flags": 11, 
           "active": true, 
@@ -841,6 +905,7 @@
       "nexthops": [
         {
           "interfaceName": "c0-c1-eth2", 
+          "ip": "10.0.0.97", 
           "fib": true, 
           "flags": 11, 
           "active": true, 
@@ -860,6 +925,7 @@
       "nexthops": [
         {
           "interfaceName": "c0-d1-eth3", 
+          "ip": "10.0.0.99", 
           "fib": true, 
           "flags": 11, 
           "active": true, 
@@ -879,6 +945,7 @@
       "nexthops": [
         {
           "interfaceName": "c0-b1-eth1", 
+          "ip": "10.0.0.64", 
           "fib": true, 
           "flags": 11, 
           "active": true, 
@@ -887,6 +954,7 @@
         }, 
         {
           "interfaceName": "c0-c1-eth2", 
+          "ip": "10.0.0.97", 
           "fib": true, 
           "flags": 11, 
           "active": true, 
@@ -895,6 +963,7 @@
         }, 
         {
           "interfaceName": "c0-d1-eth3", 
+          "ip": "10.0.0.99", 
           "fib": true, 
           "flags": 11, 
           "active": true, 
@@ -914,6 +983,7 @@
       "nexthops": [
         {
           "interfaceName": "c0-d1-eth3", 
+          "ip": "10.0.0.99", 
           "fib": true, 
           "flags": 11, 
           "active": true, 
@@ -933,6 +1003,7 @@
       "nexthops": [
         {
           "interfaceName": "c0-b1-eth1", 
+          "ip": "10.0.0.64", 
           "fib": true, 
           "flags": 11, 
           "active": true, 
@@ -952,6 +1023,7 @@
       "nexthops": [
         {
           "interfaceName": "c0-b1-eth1", 
+          "ip": "10.0.0.64", 
           "fib": true, 
           "flags": 11, 
           "active": true, 
@@ -960,6 +1032,7 @@
         }, 
         {
           "interfaceName": "c0-c1-eth2", 
+          "ip": "10.0.0.97", 
           "fib": true, 
           "flags": 11, 
           "active": true, 
@@ -968,6 +1041,7 @@
         }, 
         {
           "interfaceName": "c0-d1-eth3", 
+          "ip": "10.0.0.99", 
           "fib": true, 
           "flags": 11, 
           "active": true, 
@@ -987,6 +1061,7 @@
       "nexthops": [
         {
           "interfaceName": "c0-b1-eth1", 
+          "ip": "10.0.0.64", 
           "fib": true, 
           "flags": 11, 
           "active": true, 
@@ -995,6 +1070,7 @@
         }, 
         {
           "interfaceName": "c0-c1-eth2", 
+          "ip": "10.0.0.97", 
           "fib": true, 
           "flags": 11, 
           "active": true, 
@@ -1003,6 +1079,7 @@
         }, 
         {
           "interfaceName": "c0-d1-eth3", 
+          "ip": "10.0.0.99", 
           "fib": true, 
           "flags": 11, 
           "active": true, 
@@ -1022,6 +1099,7 @@
       "nexthops": [
         {
           "interfaceName": "c0-b1-eth1", 
+          "ip": "10.0.0.64", 
           "fib": true, 
           "flags": 11, 
           "active": true, 
@@ -1030,6 +1108,7 @@
         }, 
         {
           "interfaceName": "c0-c1-eth2", 
+          "ip": "10.0.0.97", 
           "fib": true, 
           "flags": 11, 
           "active": true, 
@@ -1038,6 +1117,7 @@
         }, 
         {
           "interfaceName": "c0-d1-eth3", 
+          "ip": "10.0.0.99", 
           "fib": true, 
           "flags": 11, 
           "active": true, 
@@ -1057,6 +1137,7 @@
       "nexthops": [
         {
           "interfaceName": "c0-b1-eth1", 
+          "ip": "10.0.0.64", 
           "fib": true, 
           "flags": 11, 
           "active": true, 
@@ -1065,6 +1146,7 @@
         }, 
         {
           "interfaceName": "c0-c1-eth2", 
+          "ip": "10.0.0.97", 
           "fib": true, 
           "flags": 11, 
           "active": true, 
@@ -1073,6 +1155,7 @@
         }, 
         {
           "interfaceName": "c0-d1-eth3", 
+          "ip": "10.0.0.99", 
           "fib": true, 
           "flags": 11, 
           "active": true, 
@@ -1092,6 +1175,7 @@
       "nexthops": [
         {
           "interfaceName": "c0-d1-eth3", 
+          "ip": "10.0.0.99", 
           "fib": true, 
           "flags": 11, 
           "active": true, 
@@ -1111,6 +1195,7 @@
       "nexthops": [
         {
           "interfaceName": "c0-b1-eth1", 
+          "ip": "10.0.0.64", 
           "fib": true, 
           "flags": 11, 
           "active": true, 
@@ -1119,6 +1204,7 @@
         }, 
         {
           "interfaceName": "c0-c1-eth2", 
+          "ip": "10.0.0.97", 
           "fib": true, 
           "flags": 11, 
           "active": true, 
@@ -1127,6 +1213,7 @@
         }, 
         {
           "interfaceName": "c0-d1-eth3", 
+          "ip": "10.0.0.99", 
           "fib": true, 
           "flags": 11, 
           "active": true, 
@@ -1145,6 +1232,7 @@
       "nexthops": [
         {
           "interfaceName": "c0-b1-eth1", 
+          "ip": "10.0.0.64", 
           "flags": 9, 
           "active": true, 
           "onLink": true, 
@@ -1177,6 +1265,7 @@
       "nexthops": [
         {
           "interfaceName": "c0-b1-eth1", 
+          "ip": "10.0.0.64", 
           "fib": true, 
           "flags": 11, 
           "active": true, 
@@ -1185,6 +1274,7 @@
         }, 
         {
           "interfaceName": "c0-c1-eth2", 
+          "ip": "10.0.0.97", 
           "fib": true, 
           "flags": 11, 
           "active": true, 
@@ -1193,6 +1283,7 @@
         }, 
         {
           "interfaceName": "c0-d1-eth3", 
+          "ip": "10.0.0.99", 
           "fib": true, 
           "flags": 11, 
           "active": true, 
@@ -1212,6 +1303,7 @@
       "nexthops": [
         {
           "interfaceName": "c0-b1-eth1", 
+          "ip": "10.0.0.64", 
           "fib": true, 
           "flags": 11, 
           "active": true, 
@@ -1220,6 +1312,7 @@
         }, 
         {
           "interfaceName": "c0-c1-eth2", 
+          "ip": "10.0.0.97", 
           "fib": true, 
           "flags": 11, 
           "active": true, 
@@ -1228,6 +1321,7 @@
         }, 
         {
           "interfaceName": "c0-d1-eth3", 
+          "ip": "10.0.0.99", 
           "fib": true, 
           "flags": 11, 
           "active": true, 
@@ -1247,6 +1341,7 @@
       "nexthops": [
         {
           "interfaceName": "c0-b1-eth1", 
+          "ip": "10.0.0.64", 
           "fib": true, 
           "flags": 11, 
           "active": true, 
@@ -1255,6 +1350,7 @@
         }, 
         {
           "interfaceName": "c0-c1-eth2", 
+          "ip": "10.0.0.97", 
           "fib": true, 
           "flags": 11, 
           "active": true, 
@@ -1263,6 +1359,7 @@
         }, 
         {
           "interfaceName": "c0-d1-eth3", 
+          "ip": "10.0.0.99", 
           "fib": true, 
           "flags": 11, 
           "active": true, 
@@ -1282,6 +1379,7 @@
       "nexthops": [
         {
           "interfaceName": "c0-b1-eth1", 
+          "ip": "10.0.0.64", 
           "fib": true, 
           "flags": 11, 
           "active": true, 
@@ -1290,6 +1388,7 @@
         }, 
         {
           "interfaceName": "c0-c1-eth2", 
+          "ip": "10.0.0.97", 
           "fib": true, 
           "flags": 11, 
           "active": true, 
@@ -1298,6 +1397,7 @@
         }, 
         {
           "interfaceName": "c0-d1-eth3", 
+          "ip": "10.0.0.99", 
           "fib": true, 
           "flags": 11, 
           "active": true, 
@@ -1317,6 +1417,7 @@
       "nexthops": [
         {
           "interfaceName": "c0-b1-eth1", 
+          "ip": "10.0.0.64", 
           "fib": true, 
           "flags": 11, 
           "active": true, 
@@ -1336,6 +1437,7 @@
       "nexthops": [
         {
           "interfaceName": "c0-b1-eth1", 
+          "ip": "10.0.0.64", 
           "fib": true, 
           "flags": 11, 
           "active": true, 
@@ -1344,6 +1446,7 @@
         }, 
         {
           "interfaceName": "c0-c1-eth2", 
+          "ip": "10.0.0.97", 
           "fib": true, 
           "flags": 11, 
           "active": true, 
@@ -1352,6 +1455,7 @@
         }, 
         {
           "interfaceName": "c0-d1-eth3", 
+          "ip": "10.0.0.99", 
           "fib": true, 
           "flags": 11, 
           "active": true, 
@@ -1371,6 +1475,7 @@
       "nexthops": [
         {
           "interfaceName": "c0-d1-eth3", 
+          "ip": "10.0.0.99", 
           "fib": true, 
           "flags": 11, 
           "active": true, 
@@ -1390,6 +1495,7 @@
       "nexthops": [
         {
           "interfaceName": "c0-b1-eth1", 
+          "ip": "10.0.0.64", 
           "fib": true, 
           "flags": 11, 
           "active": true, 
@@ -1398,6 +1504,7 @@
         }, 
         {
           "interfaceName": "c0-c1-eth2", 
+          "ip": "10.0.0.97", 
           "fib": true, 
           "flags": 11, 
           "active": true, 
@@ -1406,6 +1513,7 @@
         }, 
         {
           "interfaceName": "c0-d1-eth3", 
+          "ip": "10.0.0.99", 
           "fib": true, 
           "flags": 11, 
           "active": true, 
@@ -1425,6 +1533,7 @@
       "nexthops": [
         {
           "interfaceName": "c0-b1-eth1", 
+          "ip": "10.0.0.64", 
           "fib": true, 
           "flags": 11, 
           "active": true, 
@@ -1433,6 +1542,7 @@
         }, 
         {
           "interfaceName": "c0-c1-eth2", 
+          "ip": "10.0.0.97", 
           "fib": true, 
           "flags": 11, 
           "active": true, 
@@ -1441,6 +1551,7 @@
         }, 
         {
           "interfaceName": "c0-d1-eth3", 
+          "ip": "10.0.0.99", 
           "fib": true, 
           "flags": 11, 
           "active": true, 
@@ -1460,6 +1571,7 @@
       "nexthops": [
         {
           "interfaceName": "c0-b1-eth1", 
+          "ip": "10.0.0.64", 
           "fib": true, 
           "flags": 11, 
           "active": true, 
@@ -1468,6 +1580,7 @@
         }, 
         {
           "interfaceName": "c0-c1-eth2", 
+          "ip": "10.0.0.97", 
           "fib": true, 
           "flags": 11, 
           "active": true, 
@@ -1476,6 +1589,7 @@
         }, 
         {
           "interfaceName": "c0-d1-eth3", 
+          "ip": "10.0.0.99", 
           "fib": true, 
           "flags": 11, 
           "active": true, 
@@ -1495,6 +1609,7 @@
       "nexthops": [
         {
           "interfaceName": "c0-c1-eth2", 
+          "ip": "10.0.0.97", 
           "fib": true, 
           "flags": 11, 
           "active": true, 
@@ -1514,6 +1629,7 @@
       "nexthops": [
         {
           "interfaceName": "c0-b1-eth1", 
+          "ip": "10.0.0.64", 
           "fib": true, 
           "flags": 11, 
           "active": true, 
@@ -1522,6 +1638,7 @@
         }, 
         {
           "interfaceName": "c0-c1-eth2", 
+          "ip": "10.0.0.97", 
           "fib": true, 
           "flags": 11, 
           "active": true, 
@@ -1530,6 +1647,7 @@
         }, 
         {
           "interfaceName": "c0-d1-eth3", 
+          "ip": "10.0.0.99", 
           "fib": true, 
           "flags": 11, 
           "active": true, 
@@ -1565,6 +1683,7 @@
       "nexthops": [
         {
           "interfaceName": "c0-b1-eth1", 
+          "ip": "10.0.0.64", 
           "fib": true, 
           "flags": 11, 
           "active": true, 
@@ -1573,6 +1692,7 @@
         }, 
         {
           "interfaceName": "c0-c1-eth2", 
+          "ip": "10.0.0.97", 
           "fib": true, 
           "flags": 11, 
           "active": true, 
@@ -1581,6 +1701,7 @@
         }, 
         {
           "interfaceName": "c0-d1-eth3", 
+          "ip": "10.0.0.99", 
           "fib": true, 
           "flags": 11, 
           "active": true, 
@@ -1600,6 +1721,7 @@
       "nexthops": [
         {
           "interfaceName": "c0-b1-eth1", 
+          "ip": "10.0.0.64", 
           "fib": true, 
           "flags": 11, 
           "active": true, 
@@ -1608,6 +1730,7 @@
         }, 
         {
           "interfaceName": "c0-c1-eth2", 
+          "ip": "10.0.0.97", 
           "fib": true, 
           "flags": 11, 
           "active": true, 
@@ -1616,6 +1739,7 @@
         }, 
         {
           "interfaceName": "c0-d1-eth3", 
+          "ip": "10.0.0.99", 
           "fib": true, 
           "flags": 11, 
           "active": true, 
@@ -1635,6 +1759,7 @@
       "nexthops": [
         {
           "interfaceName": "c0-d1-eth3", 
+          "ip": "10.0.0.99", 
           "fib": true, 
           "flags": 11, 
           "active": true, 
@@ -1654,6 +1779,7 @@
       "nexthops": [
         {
           "interfaceName": "c0-b1-eth1", 
+          "ip": "10.0.0.64", 
           "fib": true, 
           "flags": 11, 
           "active": true, 
@@ -1662,6 +1788,7 @@
         }, 
         {
           "interfaceName": "c0-c1-eth2", 
+          "ip": "10.0.0.97", 
           "fib": true, 
           "flags": 11, 
           "active": true, 
@@ -1670,6 +1797,7 @@
         }, 
         {
           "interfaceName": "c0-d1-eth3", 
+          "ip": "10.0.0.99", 
           "fib": true, 
           "flags": 11, 
           "active": true, 
@@ -1689,6 +1817,7 @@
       "nexthops": [
         {
           "interfaceName": "c0-b1-eth1", 
+          "ip": "10.0.0.64", 
           "fib": true, 
           "flags": 11, 
           "active": true, 
@@ -1697,6 +1826,7 @@
         }, 
         {
           "interfaceName": "c0-c1-eth2", 
+          "ip": "10.0.0.97", 
           "fib": true, 
           "flags": 11, 
           "active": true, 
@@ -1705,6 +1835,7 @@
         }, 
         {
           "interfaceName": "c0-d1-eth3", 
+          "ip": "10.0.0.99", 
           "fib": true, 
           "flags": 11, 
           "active": true, 
@@ -1724,6 +1855,7 @@
       "nexthops": [
         {
           "interfaceName": "c0-b1-eth1", 
+          "ip": "10.0.0.64", 
           "fib": true, 
           "flags": 11, 
           "active": true, 
@@ -1732,6 +1864,7 @@
         }, 
         {
           "interfaceName": "c0-c1-eth2", 
+          "ip": "10.0.0.97", 
           "fib": true, 
           "flags": 11, 
           "active": true, 
@@ -1740,6 +1873,7 @@
         }, 
         {
           "interfaceName": "c0-d1-eth3", 
+          "ip": "10.0.0.99", 
           "fib": true, 
           "flags": 11, 
           "active": true, 
@@ -1759,6 +1893,7 @@
       "nexthops": [
         {
           "interfaceName": "c0-b1-eth1", 
+          "ip": "10.0.0.64", 
           "fib": true, 
           "flags": 11, 
           "active": true, 
@@ -1778,6 +1913,7 @@
       "nexthops": [
         {
           "interfaceName": "c0-b1-eth1", 
+          "ip": "10.0.0.64", 
           "fib": true, 
           "flags": 11, 
           "active": true, 
@@ -1786,6 +1922,7 @@
         }, 
         {
           "interfaceName": "c0-c1-eth2", 
+          "ip": "10.0.0.97", 
           "fib": true, 
           "flags": 11, 
           "active": true, 
@@ -1794,6 +1931,7 @@
         }, 
         {
           "interfaceName": "c0-d1-eth3", 
+          "ip": "10.0.0.99", 
           "fib": true, 
           "flags": 11, 
           "active": true, 
@@ -1813,6 +1951,7 @@
       "nexthops": [
         {
           "interfaceName": "c0-c1-eth2", 
+          "ip": "10.0.0.97", 
           "fib": true, 
           "flags": 11, 
           "active": true, 
@@ -1832,6 +1971,7 @@
       "nexthops": [
         {
           "interfaceName": "c0-c1-eth2", 
+          "ip": "10.0.0.97", 
           "fib": true, 
           "flags": 11, 
           "active": true, 
@@ -1851,6 +1991,7 @@
       "nexthops": [
         {
           "interfaceName": "c0-b1-eth1", 
+          "ip": "10.0.0.64", 
           "fib": true, 
           "flags": 11, 
           "active": true, 
@@ -1859,6 +2000,7 @@
         }, 
         {
           "interfaceName": "c0-c1-eth2", 
+          "ip": "10.0.0.97", 
           "fib": true, 
           "flags": 11, 
           "active": true, 
@@ -1867,6 +2009,7 @@
         }, 
         {
           "interfaceName": "c0-d1-eth3", 
+          "ip": "10.0.0.99", 
           "fib": true, 
           "flags": 11, 
           "active": true, 
@@ -1886,6 +2029,7 @@
       "nexthops": [
         {
           "interfaceName": "c0-b1-eth1", 
+          "ip": "10.0.0.64", 
           "fib": true, 
           "flags": 11, 
           "active": true, 
@@ -1894,6 +2038,7 @@
         }, 
         {
           "interfaceName": "c0-c1-eth2", 
+          "ip": "10.0.0.97", 
           "fib": true, 
           "flags": 11, 
           "active": true, 
@@ -1902,6 +2047,7 @@
         }, 
         {
           "interfaceName": "c0-d1-eth3", 
+          "ip": "10.0.0.99", 
           "fib": true, 
           "flags": 11, 
           "active": true, 
@@ -1921,6 +2067,7 @@
       "nexthops": [
         {
           "interfaceName": "c0-b1-eth1", 
+          "ip": "10.0.0.64", 
           "fib": true, 
           "flags": 11, 
           "active": true, 
@@ -1929,6 +2076,7 @@
         }, 
         {
           "interfaceName": "c0-c1-eth2", 
+          "ip": "10.0.0.97", 
           "fib": true, 
           "flags": 11, 
           "active": true, 
@@ -1937,6 +2085,7 @@
         }, 
         {
           "interfaceName": "c0-d1-eth3", 
+          "ip": "10.0.0.99", 
           "fib": true, 
           "flags": 11, 
           "active": true, 
@@ -1956,6 +2105,7 @@
       "nexthops": [
         {
           "interfaceName": "c0-b1-eth1", 
+          "ip": "10.0.0.64", 
           "fib": true, 
           "flags": 11, 
           "active": true, 
@@ -1975,6 +2125,7 @@
       "nexthops": [
         {
           "interfaceName": "c0-b1-eth1", 
+          "ip": "10.0.0.64", 
           "fib": true, 
           "flags": 11, 
           "active": true, 
@@ -1983,6 +2134,7 @@
         }, 
         {
           "interfaceName": "c0-c1-eth2", 
+          "ip": "10.0.0.97", 
           "fib": true, 
           "flags": 11, 
           "active": true, 
@@ -1991,6 +2143,7 @@
         }, 
         {
           "interfaceName": "c0-d1-eth3", 
+          "ip": "10.0.0.99", 
           "fib": true, 
           "flags": 11, 
           "active": true, 
@@ -2010,6 +2163,7 @@
       "nexthops": [
         {
           "interfaceName": "c0-b1-eth1", 
+          "ip": "10.0.0.64", 
           "fib": true, 
           "flags": 11, 
           "active": true, 
@@ -2018,6 +2172,7 @@
         }, 
         {
           "interfaceName": "c0-c1-eth2", 
+          "ip": "10.0.0.97", 
           "fib": true, 
           "flags": 11, 
           "active": true, 
@@ -2026,6 +2181,7 @@
         }, 
         {
           "interfaceName": "c0-d1-eth3", 
+          "ip": "10.0.0.99", 
           "fib": true, 
           "flags": 11, 
           "active": true, 
@@ -2045,6 +2201,7 @@
       "nexthops": [
         {
           "interfaceName": "c0-b1-eth1", 
+          "ip": "10.0.0.64", 
           "fib": true, 
           "flags": 11, 
           "active": true, 
@@ -2053,6 +2210,7 @@
         }, 
         {
           "interfaceName": "c0-c1-eth2", 
+          "ip": "10.0.0.97", 
           "fib": true, 
           "flags": 11, 
           "active": true, 
@@ -2061,6 +2219,7 @@
         }, 
         {
           "interfaceName": "c0-d1-eth3", 
+          "ip": "10.0.0.99", 
           "fib": true, 
           "flags": 11, 
           "active": true, 
@@ -2079,6 +2238,7 @@
       "nexthops": [
         {
           "interfaceName": "c0-d1-eth3", 
+          "ip": "10.0.0.99", 
           "flags": 9, 
           "active": true, 
           "onLink": true, 
@@ -2111,6 +2271,7 @@
       "nexthops": [
         {
           "interfaceName": "c0-b1-eth1", 
+          "ip": "10.0.0.64", 
           "fib": true, 
           "flags": 11, 
           "active": true, 
@@ -2119,6 +2280,7 @@
         }, 
         {
           "interfaceName": "c0-c1-eth2", 
+          "ip": "10.0.0.97", 
           "fib": true, 
           "flags": 11, 
           "active": true, 
@@ -2127,6 +2289,7 @@
         }, 
         {
           "interfaceName": "c0-d1-eth3", 
+          "ip": "10.0.0.99", 
           "fib": true, 
           "flags": 11, 
           "active": true, 
@@ -2146,6 +2309,7 @@
       "nexthops": [
         {
           "interfaceName": "c0-b1-eth1", 
+          "ip": "10.0.0.64", 
           "fib": true, 
           "flags": 11, 
           "active": true, 
@@ -2154,6 +2318,7 @@
         }, 
         {
           "interfaceName": "c0-c1-eth2", 
+          "ip": "10.0.0.97", 
           "fib": true, 
           "flags": 11, 
           "active": true, 
@@ -2162,6 +2327,7 @@
         }, 
         {
           "interfaceName": "c0-d1-eth3", 
+          "ip": "10.0.0.99", 
           "fib": true, 
           "flags": 11, 
           "active": true, 
@@ -2181,6 +2347,7 @@
       "nexthops": [
         {
           "interfaceName": "c0-d1-eth3", 
+          "ip": "10.0.0.99", 
           "fib": true, 
           "flags": 11, 
           "active": true, 
@@ -2200,6 +2367,7 @@
       "nexthops": [
         {
           "interfaceName": "c0-b1-eth1", 
+          "ip": "10.0.0.64", 
           "fib": true, 
           "flags": 11, 
           "active": true, 
@@ -2208,6 +2376,7 @@
         }, 
         {
           "interfaceName": "c0-c1-eth2", 
+          "ip": "10.0.0.97", 
           "fib": true, 
           "flags": 11, 
           "active": true, 
@@ -2216,6 +2385,7 @@
         }, 
         {
           "interfaceName": "c0-d1-eth3", 
+          "ip": "10.0.0.99", 
           "fib": true, 
           "flags": 11, 
           "active": true, 
@@ -2235,6 +2405,7 @@
       "nexthops": [
         {
           "interfaceName": "c0-b1-eth1", 
+          "ip": "10.0.0.64", 
           "fib": true, 
           "flags": 11, 
           "active": true, 
@@ -2243,6 +2414,7 @@
         }, 
         {
           "interfaceName": "c0-c1-eth2", 
+          "ip": "10.0.0.97", 
           "fib": true, 
           "flags": 11, 
           "active": true, 
@@ -2251,6 +2423,7 @@
         }, 
         {
           "interfaceName": "c0-d1-eth3", 
+          "ip": "10.0.0.99", 
           "fib": true, 
           "flags": 11, 
           "active": true, 
@@ -2270,6 +2443,7 @@
       "nexthops": [
         {
           "interfaceName": "c0-b1-eth1", 
+          "ip": "10.0.0.64", 
           "fib": true, 
           "flags": 11, 
           "active": true, 
@@ -2278,6 +2452,7 @@
         }, 
         {
           "interfaceName": "c0-c1-eth2", 
+          "ip": "10.0.0.97", 
           "fib": true, 
           "flags": 11, 
           "active": true, 
@@ -2286,6 +2461,7 @@
         }, 
         {
           "interfaceName": "c0-d1-eth3", 
+          "ip": "10.0.0.99", 
           "fib": true, 
           "flags": 11, 
           "active": true, 
@@ -2305,6 +2481,7 @@
       "nexthops": [
         {
           "interfaceName": "c0-b1-eth1", 
+          "ip": "10.0.0.64", 
           "fib": true, 
           "flags": 11, 
           "active": true, 
@@ -2313,6 +2490,7 @@
         }, 
         {
           "interfaceName": "c0-c1-eth2", 
+          "ip": "10.0.0.97", 
           "fib": true, 
           "flags": 11, 
           "active": true, 
@@ -2321,6 +2499,7 @@
         }, 
         {
           "interfaceName": "c0-d1-eth3", 
+          "ip": "10.0.0.99", 
           "fib": true, 
           "flags": 11, 
           "active": true, 
@@ -2340,6 +2519,7 @@
       "nexthops": [
         {
           "interfaceName": "c0-b1-eth1", 
+          "ip": "10.0.0.64", 
           "fib": true, 
           "flags": 11, 
           "active": true, 
@@ -2348,6 +2528,7 @@
         }, 
         {
           "interfaceName": "c0-c1-eth2", 
+          "ip": "10.0.0.97", 
           "fib": true, 
           "flags": 11, 
           "active": true, 
@@ -2356,6 +2537,7 @@
         }, 
         {
           "interfaceName": "c0-d1-eth3", 
+          "ip": "10.0.0.99", 
           "fib": true, 
           "flags": 11, 
           "active": true, 
@@ -2375,6 +2557,7 @@
       "nexthops": [
         {
           "interfaceName": "c0-b1-eth1", 
+          "ip": "10.0.0.64", 
           "fib": true, 
           "flags": 11, 
           "active": true, 
@@ -2383,6 +2566,7 @@
         }, 
         {
           "interfaceName": "c0-c1-eth2", 
+          "ip": "10.0.0.97", 
           "fib": true, 
           "flags": 11, 
           "active": true, 
@@ -2391,6 +2575,7 @@
         }, 
         {
           "interfaceName": "c0-d1-eth3", 
+          "ip": "10.0.0.99", 
           "fib": true, 
           "flags": 11, 
           "active": true, 
@@ -2410,6 +2595,7 @@
       "nexthops": [
         {
           "interfaceName": "c0-c1-eth2", 
+          "ip": "10.0.0.97", 
           "fib": true, 
           "flags": 11, 
           "active": true, 
@@ -2429,6 +2615,7 @@
       "nexthops": [
         {
           "interfaceName": "c0-b1-eth1", 
+          "ip": "10.0.0.64", 
           "fib": true, 
           "flags": 11, 
           "active": true, 
@@ -2437,6 +2624,7 @@
         }, 
         {
           "interfaceName": "c0-c1-eth2", 
+          "ip": "10.0.0.97", 
           "fib": true, 
           "flags": 11, 
           "active": true, 
@@ -2445,6 +2633,7 @@
         }, 
         {
           "interfaceName": "c0-d1-eth3", 
+          "ip": "10.0.0.99", 
           "fib": true, 
           "flags": 11, 
           "active": true, 

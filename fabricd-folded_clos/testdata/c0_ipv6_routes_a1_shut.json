@@ -1351,7 +1351,7 @@
       "nexthops": [
         {
           "directlyConnected": true, 
-          "interfaceName": "c0-a1-eth0", 
+          "interfaceName": "c0-d1-eth3", 
           "fib": true, 
           "flags": 3, 
           "active": true
@@ -1364,7 +1364,7 @@
       "nexthops": [
         {
           "directlyConnected": true, 
-          "interfaceName": "c0-d1-eth3", 
+          "interfaceName": "c0-a1-eth0", 
           "fib": true, 
           "flags": 3, 
           "active": true

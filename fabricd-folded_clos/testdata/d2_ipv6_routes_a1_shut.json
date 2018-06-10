@@ -1183,19 +1183,6 @@
       "nexthops": [
         {
           "directlyConnected": true, 
-          "interfaceName": "d2-c3-eth5", 
-          "fib": true, 
-          "flags": 3, 
-          "active": true
-        }
-      ]
-    }, 
-    {
-      "protocol": "connected", 
-      "prefix": "fe80::/64", 
-      "nexthops": [
-        {
-          "directlyConnected": true, 
           "interfaceName": "d2-d1-eth6", 
           "fib": true, 
           "flags": 3, 
@@ -1209,7 +1196,20 @@
       "nexthops": [
         {
           "directlyConnected": true, 
-          "interfaceName": "d2-c1-eth4", 
+          "interfaceName": "d2-c3-eth5", 
+          "fib": true, 
+          "flags": 3, 
+          "active": true
+        }
+      ]
+    }, 
+    {
+      "protocol": "connected", 
+      "prefix": "fe80::/64", 
+      "nexthops": [
+        {
+          "directlyConnected": true, 
+          "interfaceName": "d2-a3-eth1", 
           "fib": true, 
           "flags": 3, 
           "active": true
@@ -1235,19 +1235,6 @@
       "nexthops": [
         {
           "directlyConnected": true, 
-          "interfaceName": "d2-d3-eth7", 
-          "fib": true, 
-          "flags": 3, 
-          "active": true
-        }
-      ]
-    }, 
-    {
-      "protocol": "connected", 
-      "prefix": "fe80::/64", 
-      "nexthops": [
-        {
-          "directlyConnected": true, 
           "interfaceName": "d2-b3-eth3", 
           "fib": true, 
           "flags": 3, 
@@ -1261,7 +1248,7 @@
       "nexthops": [
         {
           "directlyConnected": true, 
-          "interfaceName": "d2-a1-eth0", 
+          "interfaceName": "d2-d3-eth7", 
           "fib": true, 
           "flags": 3, 
           "active": true
@@ -1274,7 +1261,20 @@
       "nexthops": [
         {
           "directlyConnected": true, 
-          "interfaceName": "d2-a3-eth1", 
+          "interfaceName": "d2-c1-eth4", 
+          "fib": true, 
+          "flags": 3, 
+          "active": true
+        }
+      ]
+    }, 
+    {
+      "protocol": "connected", 
+      "prefix": "fe80::/64", 
+      "nexthops": [
+        {
+          "directlyConnected": true, 
+          "interfaceName": "d2-a1-eth0", 
           "fib": true, 
           "flags": 3, 
           "active": true
