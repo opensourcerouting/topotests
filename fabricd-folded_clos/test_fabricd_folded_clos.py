@@ -353,57 +353,6 @@ def test_verify_tier_level():
         raise AssertionError(errors)
 
 
-def verify_table_with_router_disabled(selectedRouter):
-    "Verify routing table with a router disabled"
-
-    tgen = get_topogen()
-    # Don't run this test if we have any failure.
-    if tgen.routers_have_failure():
-        pytest.skip(tgen.errors)
-
-    delayTime = 30
-
-    disable_router(selectedRouter)
-
-    logger.info('waiting {0}s after Router {1} is removed'.format(delayTime, selectedRouter))
-    sleep(delayTime)
-
-    listRouters = []
-    for routerN in topo['routers'].items():
-        if routerN[0] != selectedRouter:
-            listRouters.append(routerN[0])
-    listRouters.sort()
-
-    for curRouter in listRouters:
-        filename = '{0}/testdata/{1}_ipv4_routes_{2}_shut.json'.format(CWD, curRouter, selectedRouter)
-        expected = json.loads(open(filename, 'r').read())
-        actual = tgen.gears[curRouter].vtysh_cmd('show ip route json', isjson=True)
-
-        logger.info('verifying IPv4 Routing table on Router {0} with {1} removed'.format(curRouter, selectedRouter))
-
-        if topotest.json_cmp(actual, expected) != None:
-            return "Router '{0}' routes mismatch when {1} is disabled".format(curRouter, selectedRouter)
-
-    enable_router(selectedRouter)
-    logger.info('waiting {0}s after Router {1} is restarted'.format(delayTime, selectedRouter))
-    sleep(delayTime)
-
-    return ""
-
-
-def test_ipv4_verify_table_router_a1_disabled():
-    "Shutdown router A1 and retest routing table"
-
-    global fatal_error
-
-    # Skip if previous fatal error condition is raised
-    if (fatal_error != ""):
-        pytest.skip(fatal_error)
-
-    errors = verify_table_with_router_disabled('a1')
-    if errors != "":
-        raise AssertionError(errors)
-
 
 # def test_save_routing_table():
 #     "Dummy test that just calls mininet CLI so we can interact with the build."
@@ -414,15 +363,25 @@ def test_ipv4_verify_table_router_a1_disabled():
 #     if (fatal_error != ""):
 #         pytest.skip(fatal_error)
 
+#     # Skip further tests after this one
+#     fatal_error = "Saved routing table"
+
 #     tgen = get_topogen()
+
+#     selectedRouter = 'd4'
+#     delayTime = 30
+
+#     disable_router(selectedRouter)
+
+#     logger.info('waiting {0}s after Router {1} is removed'.format(delayTime, selectedRouter))
+#     sleep(delayTime)
 
 #     logger.info('calling mininet CLI')
 #     tgen.mininet_cli()
 
-
 #     listRouters = []
 #     for routerN in topo['routers'].items():
-#         if routerN[0] != 'a1':
+#         if routerN[0] != selectedRouter:
 #             listRouters.append(routerN[0])
 
 #     listRouters.sort()
@@ -444,11 +403,10 @@ def test_ipv4_verify_table_router_a1_disabled():
 #                 routeDetail.pop('uptime', None)
 #                 for nexthop in routeDetail['nexthops']:
 #                     nexthop.pop('interfaceIndex', None)
-#                     nexthop.pop('ip', None)
 
 #         #logger.info('saving Routing table for Router {}'.format(curRouter))
 
-#         with open('/tmp/{}_ipv4_routes_a1_shut.json'.format(curRouter), 'w') as route_file:
+#         with open('/tmp/{0}_ipv4_routes_{1}_shut.json'.format(curRouter, selectedRouter), 'w') as route_file:
 #             #json.dump(allroutes, route_file)
 #             route_file.write(json.dumps(allroutes, indent=2))
 
@@ -472,7 +430,7 @@ def test_ipv4_verify_table_router_a1_disabled():
 
 #         #logger.info('saving Routing table for Router {}'.format(curRouter))
 
-#         with open('/tmp/{}_ipv6_routes_a1_shut.json'.format(curRouter), 'w') as route_file:
+#         with open('/tmp/{0}_ipv6_routes_{1}_shut.json'.format(curRouter, selectedRouter), 'w') as route_file:
 #             #json.dump(allroutes, route_file)
 #             route_file.write(json.dumps(allroutes, indent=2))
 
@@ -541,7 +499,182 @@ def test_verify_ipv6_routing_table():
         assert topotest.json_cmp(actual, expected) is None, assertmsg
 
 
+def verify_table_with_router_disabled(selectedRouter):
+    "Verify routing table with a router disabled"
 
+    tgen = get_topogen()
+    # Don't run this test if we have any failure.
+    if tgen.routers_have_failure():
+        pytest.skip(tgen.errors)
+
+    delayTime = 30
+
+    disable_router(selectedRouter)
+
+    logger.info('waiting {0}s after Router {1} is removed'.format(delayTime, selectedRouter))
+    sleep(delayTime)
+
+    listRouters = []
+    for routerN in topo['routers'].items():
+        if routerN[0] != selectedRouter:
+            listRouters.append(routerN[0])
+    listRouters.sort()
+
+    for curRouter in listRouters:
+        filename = '{0}/testdata/{1}_ipv4_routes_{2}_shut.json'.format(CWD, curRouter, selectedRouter)
+        expected = json.loads(open(filename, 'r').read())
+        actual = tgen.gears[curRouter].vtysh_cmd('show ip route json', isjson=True)
+
+        logger.info('verifying IPv4 Routing table on Router {0} with {1} removed'.format(curRouter, selectedRouter))
+
+        if topotest.json_cmp(actual, expected) != None:
+            return "Router '{0}' routes mismatch when {1} is disabled".format(curRouter, selectedRouter)
+
+    for curRouter in listRouters:
+        filename = '{0}/testdata/{1}_ipv6_routes_{2}_shut.json'.format(CWD, curRouter, selectedRouter)
+        expected = json.loads(open(filename, 'r').read())
+        actual = tgen.gears[curRouter].vtysh_cmd('show ipv6 route json', isjson=True)
+
+        logger.info('verifying IPv6 Routing table on Router {0} with {1} removed'.format(curRouter, selectedRouter))
+
+        if topotest.json_cmp(actual, expected) != None:
+            return "Router '{0}' routes mismatch when {1} is disabled".format(curRouter, selectedRouter)
+
+    enable_router(selectedRouter)
+    logger.info('waiting {0}s after Router {1} is restarted'.format(delayTime, selectedRouter))
+    sleep(delayTime)
+
+    return ""
+
+
+def test_verify_routing_table_router_a1_disabled():
+    "Shutdown router A1 and retest routing table"
+
+    global fatal_error
+
+    # Skip if previous fatal error condition is raised
+    if (fatal_error != ""):
+        pytest.skip(fatal_error)
+
+    errors = verify_table_with_router_disabled('a1')
+    if errors != "":
+        raise AssertionError(errors)
+
+
+def test_verify_routing_table_router_b2_disabled():
+    "Shutdown router A1 and retest routing table"
+
+    global fatal_error
+
+    # Skip if previous fatal error condition is raised
+    if (fatal_error != ""):
+        pytest.skip(fatal_error)
+
+    errors = verify_table_with_router_disabled('b2')
+    if errors != "":
+        raise AssertionError(errors)
+
+
+def test_verify_routing_table_router_c3_disabled():
+    "Shutdown router A1 and retest routing table"
+
+    global fatal_error
+
+    # Skip if previous fatal error condition is raised
+    if (fatal_error != ""):
+        pytest.skip(fatal_error)
+
+    errors = verify_table_with_router_disabled('c3')
+    if errors != "":
+        raise AssertionError(errors)
+
+
+def test_verify_routing_table_router_a1_disabled():
+    "Shutdown router A1 and retest routing table"
+
+    global fatal_error
+
+    # Skip if previous fatal error condition is raised
+    if (fatal_error != ""):
+        pytest.skip(fatal_error)
+
+    errors = verify_table_with_router_disabled('a0')
+    if errors != "":
+        raise AssertionError(errors)
+
+
+def test_verify_routing_table_router_a1_disabled():
+    "Shutdown router A1 and retest routing table"
+
+    global fatal_error
+
+    # Skip if previous fatal error condition is raised
+    if (fatal_error != ""):
+        pytest.skip(fatal_error)
+
+    errors = verify_table_with_router_disabled('d4')
+    if errors != "":
+        raise AssertionError(errors)
+
+
+def test_verify_ipv4_routing_table_at_end():
+    "Dummy test that just calls mininet CLI so we can interact with the build."
+
+    global fatal_error
+
+    # Skip if previous fatal error condition is raised
+    if (fatal_error != ""):
+        pytest.skip(fatal_error)
+
+    tgen = get_topogen()
+    # Don't run this test if we have any failure.
+    if tgen.routers_have_failure():
+        pytest.skip(tgen.errors)
+
+    listRouters = []
+    for routerN in topo['routers'].items():
+        listRouters.append(routerN[0])
+    listRouters.sort()
+
+    for curRouter in listRouters:
+        filename = '{0}/testdata/{1}_ipv4_routes.json'.format(CWD, curRouter)
+        expected = json.loads(open(filename, 'r').read())
+        actual = tgen.gears[curRouter].vtysh_cmd('show ip route json', isjson=True)
+
+        logger.info('verifying IPv4 Routing table on Router {} again'.format(curRouter))
+
+        assertmsg = "Router '{}' routes mismatch".format(curRouter)
+        assert topotest.json_cmp(actual, expected) is None, assertmsg
+
+
+def test_verify_ipv6_routing_table_at_end():
+    "Dummy test that just calls mininet CLI so we can interact with the build."
+
+    global fatal_error
+
+    # Skip if previous fatal error condition is raised
+    if (fatal_error != ""):
+        pytest.skip(fatal_error)
+
+    tgen = get_topogen()
+    # Don't run this test if we have any failure.
+    if tgen.routers_have_failure():
+        pytest.skip(tgen.errors)
+
+    listRouters = []
+    for routerN in topo['routers'].items():
+        listRouters.append(routerN[0])
+    listRouters.sort()
+
+    for curRouter in listRouters:
+        filename = '{0}/testdata/{1}_ipv6_routes.json'.format(CWD, curRouter)
+        expected = json.loads(open(filename, 'r').read())
+        actual = tgen.gears[curRouter].vtysh_cmd('show ipv6 route json', isjson=True)
+
+        logger.info('verifying IPv6 Routing table on Router {} again'.format(curRouter))
+
+        assertmsg = "Router '{}' routes mismatch".format(curRouter)
+        assert topotest.json_cmp(actual, expected) is None, assertmsg
 
 # Memory leak test template
 def test_memory_leak():

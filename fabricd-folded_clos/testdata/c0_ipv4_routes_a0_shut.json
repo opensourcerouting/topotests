@@ -1,0 +1,2948 @@
+{
+  "1.0.2.0/32": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 30, 
+      "selected": true, 
+      "prefix": "1.0.2.0/32", 
+      "nexthops": [
+        {
+          "interfaceName": "c0-a1-eth0", 
+          "ip": "10.0.0.14", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }, 
+        {
+          "interfaceName": "c0-b1-eth1", 
+          "ip": "10.0.0.64", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }, 
+        {
+          "interfaceName": "c0-c1-eth2", 
+          "ip": "10.0.0.97", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }, 
+        {
+          "interfaceName": "c0-d1-eth3", 
+          "ip": "10.0.0.99", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }
+      ]
+    }
+  ], 
+  "10.0.0.88/31": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 30, 
+      "selected": true, 
+      "prefix": "10.0.0.88/31", 
+      "nexthops": [
+        {
+          "interfaceName": "c0-a1-eth0", 
+          "ip": "10.0.0.14", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }, 
+        {
+          "interfaceName": "c0-b1-eth1", 
+          "ip": "10.0.0.64", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }, 
+        {
+          "interfaceName": "c0-c1-eth2", 
+          "ip": "10.0.0.97", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }, 
+        {
+          "interfaceName": "c0-d1-eth3", 
+          "ip": "10.0.0.99", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }
+      ]
+    }
+  ], 
+  "1.0.1.1/32": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 20, 
+      "selected": true, 
+      "prefix": "1.0.1.1/32", 
+      "nexthops": [
+        {
+          "interfaceName": "c0-b1-eth1", 
+          "ip": "10.0.0.64", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }
+      ]
+    }
+  ], 
+  "1.0.1.3/32": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 20, 
+      "selected": true, 
+      "prefix": "1.0.1.3/32", 
+      "nexthops": [
+        {
+          "interfaceName": "c0-d1-eth3", 
+          "ip": "10.0.0.99", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }
+      ]
+    }
+  ], 
+  "1.0.0.3/32": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 30, 
+      "selected": true, 
+      "prefix": "1.0.0.3/32", 
+      "nexthops": [
+        {
+          "interfaceName": "c0-a1-eth0", 
+          "ip": "10.0.0.14", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }, 
+        {
+          "interfaceName": "c0-b1-eth1", 
+          "ip": "10.0.0.64", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }, 
+        {
+          "interfaceName": "c0-c1-eth2", 
+          "ip": "10.0.0.97", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }, 
+        {
+          "interfaceName": "c0-d1-eth3", 
+          "ip": "10.0.0.99", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }
+      ]
+    }
+  ], 
+  "10.0.0.50/31": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 40, 
+      "selected": true, 
+      "prefix": "10.0.0.50/31", 
+      "nexthops": [
+        {
+          "interfaceName": "c0-a1-eth0", 
+          "ip": "10.0.0.14", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }, 
+        {
+          "interfaceName": "c0-b1-eth1", 
+          "ip": "10.0.0.64", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }, 
+        {
+          "interfaceName": "c0-c1-eth2", 
+          "ip": "10.0.0.97", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }, 
+        {
+          "interfaceName": "c0-d1-eth3", 
+          "ip": "10.0.0.99", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }
+      ]
+    }
+  ], 
+  "10.0.0.12/31": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 20, 
+      "selected": true, 
+      "prefix": "10.0.0.12/31", 
+      "nexthops": [
+        {
+          "interfaceName": "c0-a1-eth0", 
+          "ip": "10.0.0.14", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }
+      ]
+    }
+  ], 
+  "1.0.1.2/32": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 20, 
+      "selected": true, 
+      "prefix": "1.0.1.2/32", 
+      "nexthops": [
+        {
+          "interfaceName": "c0-c1-eth2", 
+          "ip": "10.0.0.97", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }
+      ]
+    }
+  ], 
+  "10.0.0.10/31": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 20, 
+      "selected": true, 
+      "prefix": "10.0.0.10/31", 
+      "nexthops": [
+        {
+          "interfaceName": "c0-a1-eth0", 
+          "ip": "10.0.0.14", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }
+      ]
+    }
+  ], 
+  "10.0.0.28/31": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 20, 
+      "selected": true, 
+      "prefix": "10.0.0.28/31", 
+      "nexthops": [
+        {
+          "interfaceName": "c0-c1-eth2", 
+          "ip": "10.0.0.97", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }
+      ]
+    }
+  ], 
+  "10.0.0.76/31": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 30, 
+      "selected": true, 
+      "prefix": "10.0.0.76/31", 
+      "nexthops": [
+        {
+          "interfaceName": "c0-a1-eth0", 
+          "ip": "10.0.0.14", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }, 
+        {
+          "interfaceName": "c0-b1-eth1", 
+          "ip": "10.0.0.64", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }, 
+        {
+          "interfaceName": "c0-c1-eth2", 
+          "ip": "10.0.0.97", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }, 
+        {
+          "interfaceName": "c0-d1-eth3", 
+          "ip": "10.0.0.99", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }
+      ]
+    }
+  ], 
+  "10.0.0.68/31": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 20, 
+      "selected": true, 
+      "prefix": "10.0.0.68/31", 
+      "nexthops": [
+        {
+          "interfaceName": "c0-b1-eth1", 
+          "ip": "10.0.0.64", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }
+      ]
+    }
+  ], 
+  "10.0.0.16/31": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 20, 
+      "selected": true, 
+      "prefix": "10.0.0.16/31", 
+      "nexthops": [
+        {
+          "interfaceName": "c0-a1-eth0", 
+          "ip": "10.0.0.14", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }
+      ]
+    }
+  ], 
+  "10.0.0.36/31": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 40, 
+      "selected": true, 
+      "prefix": "10.0.0.36/31", 
+      "nexthops": [
+        {
+          "interfaceName": "c0-a1-eth0", 
+          "ip": "10.0.0.14", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }, 
+        {
+          "interfaceName": "c0-b1-eth1", 
+          "ip": "10.0.0.64", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }, 
+        {
+          "interfaceName": "c0-c1-eth2", 
+          "ip": "10.0.0.97", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }, 
+        {
+          "interfaceName": "c0-d1-eth3", 
+          "ip": "10.0.0.99", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }
+      ]
+    }
+  ], 
+  "10.0.0.20/31": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 20, 
+      "selected": true, 
+      "prefix": "10.0.0.20/31", 
+      "nexthops": [
+        {
+          "interfaceName": "c0-a1-eth0", 
+          "ip": "10.0.0.14", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }
+      ]
+    }
+  ], 
+  "10.0.0.72/31": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 30, 
+      "selected": true, 
+      "prefix": "10.0.0.72/31", 
+      "nexthops": [
+        {
+          "interfaceName": "c0-a1-eth0", 
+          "ip": "10.0.0.14", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }, 
+        {
+          "interfaceName": "c0-b1-eth1", 
+          "ip": "10.0.0.64", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }, 
+        {
+          "interfaceName": "c0-c1-eth2", 
+          "ip": "10.0.0.97", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }, 
+        {
+          "interfaceName": "c0-d1-eth3", 
+          "ip": "10.0.0.99", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }
+      ]
+    }
+  ], 
+  "10.0.0.42/31": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 30, 
+      "selected": true, 
+      "prefix": "10.0.0.42/31", 
+      "nexthops": [
+        {
+          "interfaceName": "c0-a1-eth0", 
+          "ip": "10.0.0.14", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }, 
+        {
+          "interfaceName": "c0-b1-eth1", 
+          "ip": "10.0.0.64", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }, 
+        {
+          "interfaceName": "c0-c1-eth2", 
+          "ip": "10.0.0.97", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }, 
+        {
+          "interfaceName": "c0-d1-eth3", 
+          "ip": "10.0.0.99", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }
+      ]
+    }
+  ], 
+  "10.0.0.46/31": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 30, 
+      "selected": true, 
+      "prefix": "10.0.0.46/31", 
+      "nexthops": [
+        {
+          "interfaceName": "c0-a1-eth0", 
+          "ip": "10.0.0.14", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }, 
+        {
+          "interfaceName": "c0-b1-eth1", 
+          "ip": "10.0.0.64", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }, 
+        {
+          "interfaceName": "c0-c1-eth2", 
+          "ip": "10.0.0.97", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }, 
+        {
+          "interfaceName": "c0-d1-eth3", 
+          "ip": "10.0.0.99", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }
+      ]
+    }
+  ], 
+  "10.0.0.110/31": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 30, 
+      "selected": true, 
+      "prefix": "10.0.0.110/31", 
+      "nexthops": [
+        {
+          "interfaceName": "c0-a1-eth0", 
+          "ip": "10.0.0.14", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }, 
+        {
+          "interfaceName": "c0-b1-eth1", 
+          "ip": "10.0.0.64", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }, 
+        {
+          "interfaceName": "c0-c1-eth2", 
+          "ip": "10.0.0.97", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }, 
+        {
+          "interfaceName": "c0-d1-eth3", 
+          "ip": "10.0.0.99", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }
+      ]
+    }
+  ], 
+  "10.0.0.104/31": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 20, 
+      "selected": true, 
+      "prefix": "10.0.0.104/31", 
+      "nexthops": [
+        {
+          "interfaceName": "c0-c1-eth2", 
+          "ip": "10.0.0.97", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }
+      ]
+    }
+  ], 
+  "10.0.0.96/31": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 20, 
+      "prefix": "10.0.0.96/31", 
+      "nexthops": [
+        {
+          "interfaceName": "c0-c1-eth2", 
+          "ip": "10.0.0.97", 
+          "flags": 9, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }
+      ]
+    }, 
+    {
+      "protocol": "connected", 
+      "selected": true, 
+      "prefix": "10.0.0.96/31", 
+      "nexthops": [
+        {
+          "directlyConnected": true, 
+          "interfaceName": "c0-c1-eth2", 
+          "fib": true, 
+          "flags": 3, 
+          "active": true
+        }
+      ]
+    }
+  ], 
+  "10.0.0.66/31": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 20, 
+      "selected": true, 
+      "prefix": "10.0.0.66/31", 
+      "nexthops": [
+        {
+          "interfaceName": "c0-b1-eth1", 
+          "ip": "10.0.0.64", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }
+      ]
+    }
+  ], 
+  "10.0.0.54/31": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 40, 
+      "selected": true, 
+      "prefix": "10.0.0.54/31", 
+      "nexthops": [
+        {
+          "interfaceName": "c0-a1-eth0", 
+          "ip": "10.0.0.14", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }, 
+        {
+          "interfaceName": "c0-b1-eth1", 
+          "ip": "10.0.0.64", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }, 
+        {
+          "interfaceName": "c0-c1-eth2", 
+          "ip": "10.0.0.97", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }, 
+        {
+          "interfaceName": "c0-d1-eth3", 
+          "ip": "10.0.0.99", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }
+      ]
+    }
+  ], 
+  "10.0.0.22/31": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 30, 
+      "selected": true, 
+      "prefix": "10.0.0.22/31", 
+      "nexthops": [
+        {
+          "interfaceName": "c0-a1-eth0", 
+          "ip": "10.0.0.14", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }, 
+        {
+          "interfaceName": "c0-b1-eth1", 
+          "ip": "10.0.0.64", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }, 
+        {
+          "interfaceName": "c0-c1-eth2", 
+          "ip": "10.0.0.97", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }, 
+        {
+          "interfaceName": "c0-d1-eth3", 
+          "ip": "10.0.0.99", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }
+      ]
+    }
+  ], 
+  "10.0.0.90/31": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 40, 
+      "selected": true, 
+      "prefix": "10.0.0.90/31", 
+      "nexthops": [
+        {
+          "interfaceName": "c0-a1-eth0", 
+          "ip": "10.0.0.14", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }, 
+        {
+          "interfaceName": "c0-b1-eth1", 
+          "ip": "10.0.0.64", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }, 
+        {
+          "interfaceName": "c0-c1-eth2", 
+          "ip": "10.0.0.97", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }, 
+        {
+          "interfaceName": "c0-d1-eth3", 
+          "ip": "10.0.0.99", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }
+      ]
+    }
+  ], 
+  "10.0.0.70/31": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 20, 
+      "selected": true, 
+      "prefix": "10.0.0.70/31", 
+      "nexthops": [
+        {
+          "interfaceName": "c0-b1-eth1", 
+          "ip": "10.0.0.64", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }
+      ]
+    }
+  ], 
+  "10.0.0.6/31": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 20, 
+      "selected": true, 
+      "prefix": "10.0.0.6/31", 
+      "nexthops": [
+        {
+          "interfaceName": "c0-d1-eth3", 
+          "ip": "10.0.0.99", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }
+      ]
+    }
+  ], 
+  "1.0.4.0/32": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 50, 
+      "selected": true, 
+      "prefix": "1.0.4.0/32", 
+      "nexthops": [
+        {
+          "interfaceName": "c0-a1-eth0", 
+          "ip": "10.0.0.14", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }, 
+        {
+          "interfaceName": "c0-b1-eth1", 
+          "ip": "10.0.0.64", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }, 
+        {
+          "interfaceName": "c0-c1-eth2", 
+          "ip": "10.0.0.97", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }, 
+        {
+          "interfaceName": "c0-d1-eth3", 
+          "ip": "10.0.0.99", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }
+      ]
+    }
+  ], 
+  "10.0.0.100/31": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 20, 
+      "selected": true, 
+      "prefix": "10.0.0.100/31", 
+      "nexthops": [
+        {
+          "interfaceName": "c0-c1-eth2", 
+          "ip": "10.0.0.97", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }
+      ]
+    }
+  ], 
+  "10.0.0.122/31": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 20, 
+      "selected": true, 
+      "prefix": "10.0.0.122/31", 
+      "nexthops": [
+        {
+          "interfaceName": "c0-d1-eth3", 
+          "ip": "10.0.0.99", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }
+      ]
+    }
+  ], 
+  "1.0.2.2/32": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 30, 
+      "selected": true, 
+      "prefix": "1.0.2.2/32", 
+      "nexthops": [
+        {
+          "interfaceName": "c0-a1-eth0", 
+          "ip": "10.0.0.14", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }, 
+        {
+          "interfaceName": "c0-b1-eth1", 
+          "ip": "10.0.0.64", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }, 
+        {
+          "interfaceName": "c0-c1-eth2", 
+          "ip": "10.0.0.97", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }, 
+        {
+          "interfaceName": "c0-d1-eth3", 
+          "ip": "10.0.0.99", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }
+      ]
+    }
+  ], 
+  "10.0.0.60/31": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 20, 
+      "selected": true, 
+      "prefix": "10.0.0.60/31", 
+      "nexthops": [
+        {
+          "interfaceName": "c0-d1-eth3", 
+          "ip": "10.0.0.99", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }
+      ]
+    }
+  ], 
+  "10.0.0.56/31": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 20, 
+      "selected": true, 
+      "prefix": "10.0.0.56/31", 
+      "nexthops": [
+        {
+          "interfaceName": "c0-b1-eth1", 
+          "ip": "10.0.0.64", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }
+      ]
+    }
+  ], 
+  "1.0.3.3/32": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 40, 
+      "selected": true, 
+      "prefix": "1.0.3.3/32", 
+      "nexthops": [
+        {
+          "interfaceName": "c0-a1-eth0", 
+          "ip": "10.0.0.14", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }, 
+        {
+          "interfaceName": "c0-b1-eth1", 
+          "ip": "10.0.0.64", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }, 
+        {
+          "interfaceName": "c0-c1-eth2", 
+          "ip": "10.0.0.97", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }, 
+        {
+          "interfaceName": "c0-d1-eth3", 
+          "ip": "10.0.0.99", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }
+      ]
+    }
+  ], 
+  "1.0.2.3/32": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 30, 
+      "selected": true, 
+      "prefix": "1.0.2.3/32", 
+      "nexthops": [
+        {
+          "interfaceName": "c0-a1-eth0", 
+          "ip": "10.0.0.14", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }, 
+        {
+          "interfaceName": "c0-b1-eth1", 
+          "ip": "10.0.0.64", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }, 
+        {
+          "interfaceName": "c0-c1-eth2", 
+          "ip": "10.0.0.97", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }, 
+        {
+          "interfaceName": "c0-d1-eth3", 
+          "ip": "10.0.0.99", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }
+      ]
+    }
+  ], 
+  "10.0.0.30/31": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 30, 
+      "selected": true, 
+      "prefix": "10.0.0.30/31", 
+      "nexthops": [
+        {
+          "interfaceName": "c0-a1-eth0", 
+          "ip": "10.0.0.14", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }, 
+        {
+          "interfaceName": "c0-b1-eth1", 
+          "ip": "10.0.0.64", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }, 
+        {
+          "interfaceName": "c0-c1-eth2", 
+          "ip": "10.0.0.97", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }, 
+        {
+          "interfaceName": "c0-d1-eth3", 
+          "ip": "10.0.0.99", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }
+      ]
+    }
+  ], 
+  "1.0.2.1/32": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 30, 
+      "selected": true, 
+      "prefix": "1.0.2.1/32", 
+      "nexthops": [
+        {
+          "interfaceName": "c0-a1-eth0", 
+          "ip": "10.0.0.14", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }, 
+        {
+          "interfaceName": "c0-b1-eth1", 
+          "ip": "10.0.0.64", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }, 
+        {
+          "interfaceName": "c0-c1-eth2", 
+          "ip": "10.0.0.97", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }, 
+        {
+          "interfaceName": "c0-d1-eth3", 
+          "ip": "10.0.0.99", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }
+      ]
+    }
+  ], 
+  "10.0.0.78/31": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 20, 
+      "selected": true, 
+      "prefix": "10.0.0.78/31", 
+      "nexthops": [
+        {
+          "interfaceName": "c0-d1-eth3", 
+          "ip": "10.0.0.99", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }
+      ]
+    }
+  ], 
+  "10.0.0.124/31": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 30, 
+      "selected": true, 
+      "prefix": "10.0.0.124/31", 
+      "nexthops": [
+        {
+          "interfaceName": "c0-a1-eth0", 
+          "ip": "10.0.0.14", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }, 
+        {
+          "interfaceName": "c0-b1-eth1", 
+          "ip": "10.0.0.64", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }, 
+        {
+          "interfaceName": "c0-c1-eth2", 
+          "ip": "10.0.0.97", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }, 
+        {
+          "interfaceName": "c0-d1-eth3", 
+          "ip": "10.0.0.99", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }
+      ]
+    }
+  ], 
+  "10.0.0.64/31": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 20, 
+      "prefix": "10.0.0.64/31", 
+      "nexthops": [
+        {
+          "interfaceName": "c0-b1-eth1", 
+          "ip": "10.0.0.64", 
+          "flags": 9, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }
+      ]
+    }, 
+    {
+      "protocol": "connected", 
+      "selected": true, 
+      "prefix": "10.0.0.64/31", 
+      "nexthops": [
+        {
+          "directlyConnected": true, 
+          "interfaceName": "c0-b1-eth1", 
+          "fib": true, 
+          "flags": 3, 
+          "active": true
+        }
+      ]
+    }
+  ], 
+  "10.0.0.126/31": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 40, 
+      "selected": true, 
+      "prefix": "10.0.0.126/31", 
+      "nexthops": [
+        {
+          "interfaceName": "c0-a1-eth0", 
+          "ip": "10.0.0.14", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }, 
+        {
+          "interfaceName": "c0-b1-eth1", 
+          "ip": "10.0.0.64", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }, 
+        {
+          "interfaceName": "c0-c1-eth2", 
+          "ip": "10.0.0.97", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }, 
+        {
+          "interfaceName": "c0-d1-eth3", 
+          "ip": "10.0.0.99", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }
+      ]
+    }
+  ], 
+  "10.0.0.112/31": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 40, 
+      "selected": true, 
+      "prefix": "10.0.0.112/31", 
+      "nexthops": [
+        {
+          "interfaceName": "c0-a1-eth0", 
+          "ip": "10.0.0.14", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }, 
+        {
+          "interfaceName": "c0-b1-eth1", 
+          "ip": "10.0.0.64", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }, 
+        {
+          "interfaceName": "c0-c1-eth2", 
+          "ip": "10.0.0.97", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }, 
+        {
+          "interfaceName": "c0-d1-eth3", 
+          "ip": "10.0.0.99", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }
+      ]
+    }
+  ], 
+  "10.0.0.34/31": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 30, 
+      "selected": true, 
+      "prefix": "10.0.0.34/31", 
+      "nexthops": [
+        {
+          "interfaceName": "c0-a1-eth0", 
+          "ip": "10.0.0.14", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }, 
+        {
+          "interfaceName": "c0-b1-eth1", 
+          "ip": "10.0.0.64", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }, 
+        {
+          "interfaceName": "c0-c1-eth2", 
+          "ip": "10.0.0.97", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }, 
+        {
+          "interfaceName": "c0-d1-eth3", 
+          "ip": "10.0.0.99", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }
+      ]
+    }
+  ], 
+  "1.0.0.1/32": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 30, 
+      "selected": true, 
+      "prefix": "1.0.0.1/32", 
+      "nexthops": [
+        {
+          "interfaceName": "c0-a1-eth0", 
+          "ip": "10.0.0.14", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }, 
+        {
+          "interfaceName": "c0-b1-eth1", 
+          "ip": "10.0.0.64", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }, 
+        {
+          "interfaceName": "c0-c1-eth2", 
+          "ip": "10.0.0.97", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }, 
+        {
+          "interfaceName": "c0-d1-eth3", 
+          "ip": "10.0.0.99", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }
+      ]
+    }
+  ], 
+  "10.0.0.62/31": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 20, 
+      "selected": true, 
+      "prefix": "10.0.0.62/31", 
+      "nexthops": [
+        {
+          "interfaceName": "c0-b1-eth1", 
+          "ip": "10.0.0.64", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }
+      ]
+    }
+  ], 
+  "10.0.0.94/31": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 40, 
+      "selected": true, 
+      "prefix": "10.0.0.94/31", 
+      "nexthops": [
+        {
+          "interfaceName": "c0-a1-eth0", 
+          "ip": "10.0.0.14", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }, 
+        {
+          "interfaceName": "c0-b1-eth1", 
+          "ip": "10.0.0.64", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }, 
+        {
+          "interfaceName": "c0-c1-eth2", 
+          "ip": "10.0.0.97", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }, 
+        {
+          "interfaceName": "c0-d1-eth3", 
+          "ip": "10.0.0.99", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }
+      ]
+    }
+  ], 
+  "10.0.0.120/31": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 20, 
+      "selected": true, 
+      "prefix": "10.0.0.120/31", 
+      "nexthops": [
+        {
+          "interfaceName": "c0-d1-eth3", 
+          "ip": "10.0.0.99", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }
+      ]
+    }
+  ], 
+  "10.0.0.80/31": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 30, 
+      "selected": true, 
+      "prefix": "10.0.0.80/31", 
+      "nexthops": [
+        {
+          "interfaceName": "c0-a1-eth0", 
+          "ip": "10.0.0.14", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }, 
+        {
+          "interfaceName": "c0-b1-eth1", 
+          "ip": "10.0.0.64", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }, 
+        {
+          "interfaceName": "c0-c1-eth2", 
+          "ip": "10.0.0.97", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }, 
+        {
+          "interfaceName": "c0-d1-eth3", 
+          "ip": "10.0.0.99", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }
+      ]
+    }
+  ], 
+  "1.0.4.2/32": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 50, 
+      "selected": true, 
+      "prefix": "1.0.4.2/32", 
+      "nexthops": [
+        {
+          "interfaceName": "c0-a1-eth0", 
+          "ip": "10.0.0.14", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }, 
+        {
+          "interfaceName": "c0-b1-eth1", 
+          "ip": "10.0.0.64", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }, 
+        {
+          "interfaceName": "c0-c1-eth2", 
+          "ip": "10.0.0.97", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }, 
+        {
+          "interfaceName": "c0-d1-eth3", 
+          "ip": "10.0.0.99", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }
+      ]
+    }
+  ], 
+  "10.0.0.26/31": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 30, 
+      "selected": true, 
+      "prefix": "10.0.0.26/31", 
+      "nexthops": [
+        {
+          "interfaceName": "c0-a1-eth0", 
+          "ip": "10.0.0.14", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }, 
+        {
+          "interfaceName": "c0-b1-eth1", 
+          "ip": "10.0.0.64", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }, 
+        {
+          "interfaceName": "c0-c1-eth2", 
+          "ip": "10.0.0.97", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }, 
+        {
+          "interfaceName": "c0-d1-eth3", 
+          "ip": "10.0.0.99", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }
+      ]
+    }
+  ], 
+  "10.0.0.4/31": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 20, 
+      "selected": true, 
+      "prefix": "10.0.0.4/31", 
+      "nexthops": [
+        {
+          "interfaceName": "c0-c1-eth2", 
+          "ip": "10.0.0.97", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }
+      ]
+    }
+  ], 
+  "1.0.4.1/32": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 50, 
+      "selected": true, 
+      "prefix": "1.0.4.1/32", 
+      "nexthops": [
+        {
+          "interfaceName": "c0-a1-eth0", 
+          "ip": "10.0.0.14", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }, 
+        {
+          "interfaceName": "c0-b1-eth1", 
+          "ip": "10.0.0.64", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }, 
+        {
+          "interfaceName": "c0-c1-eth2", 
+          "ip": "10.0.0.97", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }, 
+        {
+          "interfaceName": "c0-d1-eth3", 
+          "ip": "10.0.0.99", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }
+      ]
+    }
+  ], 
+  "1.0.0.2/32": [
+    {
+      "protocol": "connected", 
+      "selected": true, 
+      "prefix": "1.0.0.2/32", 
+      "nexthops": [
+        {
+          "directlyConnected": true, 
+          "interfaceName": "lo", 
+          "fib": true, 
+          "flags": 3, 
+          "active": true
+        }
+      ]
+    }
+  ], 
+  "10.0.0.106/31": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 30, 
+      "selected": true, 
+      "prefix": "10.0.0.106/31", 
+      "nexthops": [
+        {
+          "interfaceName": "c0-a1-eth0", 
+          "ip": "10.0.0.14", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }, 
+        {
+          "interfaceName": "c0-b1-eth1", 
+          "ip": "10.0.0.64", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }, 
+        {
+          "interfaceName": "c0-c1-eth2", 
+          "ip": "10.0.0.97", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }, 
+        {
+          "interfaceName": "c0-d1-eth3", 
+          "ip": "10.0.0.99", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }
+      ]
+    }
+  ], 
+  "10.0.0.32/31": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 20, 
+      "selected": true, 
+      "prefix": "10.0.0.32/31", 
+      "nexthops": [
+        {
+          "interfaceName": "c0-d1-eth3", 
+          "ip": "10.0.0.99", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }
+      ]
+    }
+  ], 
+  "1.0.3.2/32": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 40, 
+      "selected": true, 
+      "prefix": "1.0.3.2/32", 
+      "nexthops": [
+        {
+          "interfaceName": "c0-a1-eth0", 
+          "ip": "10.0.0.14", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }, 
+        {
+          "interfaceName": "c0-b1-eth1", 
+          "ip": "10.0.0.64", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }, 
+        {
+          "interfaceName": "c0-c1-eth2", 
+          "ip": "10.0.0.97", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }, 
+        {
+          "interfaceName": "c0-d1-eth3", 
+          "ip": "10.0.0.99", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }
+      ]
+    }
+  ], 
+  "10.0.0.82/31": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 40, 
+      "selected": true, 
+      "prefix": "10.0.0.82/31", 
+      "nexthops": [
+        {
+          "interfaceName": "c0-a1-eth0", 
+          "ip": "10.0.0.14", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }, 
+        {
+          "interfaceName": "c0-b1-eth1", 
+          "ip": "10.0.0.64", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }, 
+        {
+          "interfaceName": "c0-c1-eth2", 
+          "ip": "10.0.0.97", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }, 
+        {
+          "interfaceName": "c0-d1-eth3", 
+          "ip": "10.0.0.99", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }
+      ]
+    }
+  ], 
+  "10.0.0.118/31": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 40, 
+      "selected": true, 
+      "prefix": "10.0.0.118/31", 
+      "nexthops": [
+        {
+          "interfaceName": "c0-a1-eth0", 
+          "ip": "10.0.0.14", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }, 
+        {
+          "interfaceName": "c0-b1-eth1", 
+          "ip": "10.0.0.64", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }, 
+        {
+          "interfaceName": "c0-c1-eth2", 
+          "ip": "10.0.0.97", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }, 
+        {
+          "interfaceName": "c0-d1-eth3", 
+          "ip": "10.0.0.99", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }
+      ]
+    }
+  ], 
+  "10.0.0.2/31": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 20, 
+      "selected": true, 
+      "prefix": "10.0.0.2/31", 
+      "nexthops": [
+        {
+          "interfaceName": "c0-b1-eth1", 
+          "ip": "10.0.0.64", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }
+      ]
+    }
+  ], 
+  "10.0.0.84/31": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 30, 
+      "selected": true, 
+      "prefix": "10.0.0.84/31", 
+      "nexthops": [
+        {
+          "interfaceName": "c0-a1-eth0", 
+          "ip": "10.0.0.14", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }, 
+        {
+          "interfaceName": "c0-b1-eth1", 
+          "ip": "10.0.0.64", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }, 
+        {
+          "interfaceName": "c0-c1-eth2", 
+          "ip": "10.0.0.97", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }, 
+        {
+          "interfaceName": "c0-d1-eth3", 
+          "ip": "10.0.0.99", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }
+      ]
+    }
+  ], 
+  "10.0.0.74/31": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 20, 
+      "selected": true, 
+      "prefix": "10.0.0.74/31", 
+      "nexthops": [
+        {
+          "interfaceName": "c0-c1-eth2", 
+          "ip": "10.0.0.97", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }
+      ]
+    }
+  ], 
+  "10.0.0.102/31": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 20, 
+      "selected": true, 
+      "prefix": "10.0.0.102/31", 
+      "nexthops": [
+        {
+          "interfaceName": "c0-c1-eth2", 
+          "ip": "10.0.0.97", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }
+      ]
+    }
+  ], 
+  "10.0.0.52/31": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 40, 
+      "selected": true, 
+      "prefix": "10.0.0.52/31", 
+      "nexthops": [
+        {
+          "interfaceName": "c0-a1-eth0", 
+          "ip": "10.0.0.14", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }, 
+        {
+          "interfaceName": "c0-b1-eth1", 
+          "ip": "10.0.0.64", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }, 
+        {
+          "interfaceName": "c0-c1-eth2", 
+          "ip": "10.0.0.97", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }, 
+        {
+          "interfaceName": "c0-d1-eth3", 
+          "ip": "10.0.0.99", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }
+      ]
+    }
+  ], 
+  "10.0.0.116/31": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 40, 
+      "selected": true, 
+      "prefix": "10.0.0.116/31", 
+      "nexthops": [
+        {
+          "interfaceName": "c0-a1-eth0", 
+          "ip": "10.0.0.14", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }, 
+        {
+          "interfaceName": "c0-b1-eth1", 
+          "ip": "10.0.0.64", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }, 
+        {
+          "interfaceName": "c0-c1-eth2", 
+          "ip": "10.0.0.97", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }, 
+        {
+          "interfaceName": "c0-d1-eth3", 
+          "ip": "10.0.0.99", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }
+      ]
+    }
+  ], 
+  "10.0.0.92/31": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 40, 
+      "selected": true, 
+      "prefix": "10.0.0.92/31", 
+      "nexthops": [
+        {
+          "interfaceName": "c0-a1-eth0", 
+          "ip": "10.0.0.14", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }, 
+        {
+          "interfaceName": "c0-b1-eth1", 
+          "ip": "10.0.0.64", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }, 
+        {
+          "interfaceName": "c0-c1-eth2", 
+          "ip": "10.0.0.97", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }, 
+        {
+          "interfaceName": "c0-d1-eth3", 
+          "ip": "10.0.0.99", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }
+      ]
+    }
+  ], 
+  "1.0.1.0/32": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 20, 
+      "selected": true, 
+      "prefix": "1.0.1.0/32", 
+      "nexthops": [
+        {
+          "interfaceName": "c0-a1-eth0", 
+          "ip": "10.0.0.14", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }
+      ]
+    }
+  ], 
+  "10.0.0.18/31": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 20, 
+      "selected": true, 
+      "prefix": "10.0.0.18/31", 
+      "nexthops": [
+        {
+          "interfaceName": "c0-a1-eth0", 
+          "ip": "10.0.0.14", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }
+      ]
+    }
+  ], 
+  "10.0.0.44/31": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 40, 
+      "selected": true, 
+      "prefix": "10.0.0.44/31", 
+      "nexthops": [
+        {
+          "interfaceName": "c0-a1-eth0", 
+          "ip": "10.0.0.14", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }, 
+        {
+          "interfaceName": "c0-b1-eth1", 
+          "ip": "10.0.0.64", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }, 
+        {
+          "interfaceName": "c0-c1-eth2", 
+          "ip": "10.0.0.97", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }, 
+        {
+          "interfaceName": "c0-d1-eth3", 
+          "ip": "10.0.0.99", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }
+      ]
+    }
+  ], 
+  "10.0.0.8/31": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 20, 
+      "selected": true, 
+      "prefix": "10.0.0.8/31", 
+      "nexthops": [
+        {
+          "interfaceName": "c0-a1-eth0", 
+          "ip": "10.0.0.14", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }
+      ]
+    }
+  ], 
+  "10.0.0.98/31": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 20, 
+      "prefix": "10.0.0.98/31", 
+      "nexthops": [
+        {
+          "interfaceName": "c0-d1-eth3", 
+          "ip": "10.0.0.99", 
+          "flags": 9, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }
+      ]
+    }, 
+    {
+      "protocol": "connected", 
+      "selected": true, 
+      "prefix": "10.0.0.98/31", 
+      "nexthops": [
+        {
+          "directlyConnected": true, 
+          "interfaceName": "c0-d1-eth3", 
+          "fib": true, 
+          "flags": 3, 
+          "active": true
+        }
+      ]
+    }
+  ], 
+  "10.0.0.38/31": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 30, 
+      "selected": true, 
+      "prefix": "10.0.0.38/31", 
+      "nexthops": [
+        {
+          "interfaceName": "c0-a1-eth0", 
+          "ip": "10.0.0.14", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }, 
+        {
+          "interfaceName": "c0-b1-eth1", 
+          "ip": "10.0.0.64", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }, 
+        {
+          "interfaceName": "c0-c1-eth2", 
+          "ip": "10.0.0.97", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }, 
+        {
+          "interfaceName": "c0-d1-eth3", 
+          "ip": "10.0.0.99", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }
+      ]
+    }
+  ], 
+  "10.0.0.114/31": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 30, 
+      "selected": true, 
+      "prefix": "10.0.0.114/31", 
+      "nexthops": [
+        {
+          "interfaceName": "c0-a1-eth0", 
+          "ip": "10.0.0.14", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }, 
+        {
+          "interfaceName": "c0-b1-eth1", 
+          "ip": "10.0.0.64", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }, 
+        {
+          "interfaceName": "c0-c1-eth2", 
+          "ip": "10.0.0.97", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }, 
+        {
+          "interfaceName": "c0-d1-eth3", 
+          "ip": "10.0.0.99", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }
+      ]
+    }
+  ], 
+  "10.0.0.108/31": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 20, 
+      "selected": true, 
+      "prefix": "10.0.0.108/31", 
+      "nexthops": [
+        {
+          "interfaceName": "c0-d1-eth3", 
+          "ip": "10.0.0.99", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }
+      ]
+    }
+  ], 
+  "10.0.0.24/31": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 20, 
+      "selected": true, 
+      "prefix": "10.0.0.24/31", 
+      "nexthops": [
+        {
+          "interfaceName": "c0-b1-eth1", 
+          "ip": "10.0.0.64", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }
+      ]
+    }
+  ], 
+  "1.0.4.3/32": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 50, 
+      "selected": true, 
+      "prefix": "1.0.4.3/32", 
+      "nexthops": [
+        {
+          "interfaceName": "c0-a1-eth0", 
+          "ip": "10.0.0.14", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }, 
+        {
+          "interfaceName": "c0-b1-eth1", 
+          "ip": "10.0.0.64", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }, 
+        {
+          "interfaceName": "c0-c1-eth2", 
+          "ip": "10.0.0.97", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }, 
+        {
+          "interfaceName": "c0-d1-eth3", 
+          "ip": "10.0.0.99", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }
+      ]
+    }
+  ], 
+  "10.0.0.0/31": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 20, 
+      "selected": true, 
+      "prefix": "10.0.0.0/31", 
+      "nexthops": [
+        {
+          "interfaceName": "c0-a1-eth0", 
+          "ip": "10.0.0.14", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }
+      ]
+    }
+  ], 
+  "1.0.3.1/32": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 40, 
+      "selected": true, 
+      "prefix": "1.0.3.1/32", 
+      "nexthops": [
+        {
+          "interfaceName": "c0-a1-eth0", 
+          "ip": "10.0.0.14", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }, 
+        {
+          "interfaceName": "c0-b1-eth1", 
+          "ip": "10.0.0.64", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }, 
+        {
+          "interfaceName": "c0-c1-eth2", 
+          "ip": "10.0.0.97", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }, 
+        {
+          "interfaceName": "c0-d1-eth3", 
+          "ip": "10.0.0.99", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }
+      ]
+    }
+  ], 
+  "10.0.0.48/31": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 40, 
+      "selected": true, 
+      "prefix": "10.0.0.48/31", 
+      "nexthops": [
+        {
+          "interfaceName": "c0-a1-eth0", 
+          "ip": "10.0.0.14", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }, 
+        {
+          "interfaceName": "c0-b1-eth1", 
+          "ip": "10.0.0.64", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }, 
+        {
+          "interfaceName": "c0-c1-eth2", 
+          "ip": "10.0.0.97", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }, 
+        {
+          "interfaceName": "c0-d1-eth3", 
+          "ip": "10.0.0.99", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }
+      ]
+    }
+  ], 
+  "10.0.0.86/31": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 40, 
+      "selected": true, 
+      "prefix": "10.0.0.86/31", 
+      "nexthops": [
+        {
+          "interfaceName": "c0-a1-eth0", 
+          "ip": "10.0.0.14", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }, 
+        {
+          "interfaceName": "c0-b1-eth1", 
+          "ip": "10.0.0.64", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }, 
+        {
+          "interfaceName": "c0-c1-eth2", 
+          "ip": "10.0.0.97", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }, 
+        {
+          "interfaceName": "c0-d1-eth3", 
+          "ip": "10.0.0.99", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }
+      ]
+    }
+  ], 
+  "1.0.3.0/32": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 40, 
+      "selected": true, 
+      "prefix": "1.0.3.0/32", 
+      "nexthops": [
+        {
+          "interfaceName": "c0-a1-eth0", 
+          "ip": "10.0.0.14", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }, 
+        {
+          "interfaceName": "c0-b1-eth1", 
+          "ip": "10.0.0.64", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }, 
+        {
+          "interfaceName": "c0-c1-eth2", 
+          "ip": "10.0.0.97", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }, 
+        {
+          "interfaceName": "c0-d1-eth3", 
+          "ip": "10.0.0.99", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }
+      ]
+    }
+  ], 
+  "10.0.0.58/31": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 20, 
+      "selected": true, 
+      "prefix": "10.0.0.58/31", 
+      "nexthops": [
+        {
+          "interfaceName": "c0-c1-eth2", 
+          "ip": "10.0.0.97", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }
+      ]
+    }
+  ], 
+  "10.0.0.40/31": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 40, 
+      "selected": true, 
+      "prefix": "10.0.0.40/31", 
+      "nexthops": [
+        {
+          "interfaceName": "c0-a1-eth0", 
+          "ip": "10.0.0.14", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }, 
+        {
+          "interfaceName": "c0-b1-eth1", 
+          "ip": "10.0.0.64", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }, 
+        {
+          "interfaceName": "c0-c1-eth2", 
+          "ip": "10.0.0.97", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }, 
+        {
+          "interfaceName": "c0-d1-eth3", 
+          "ip": "10.0.0.99", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }
+      ]
+    }
+  ], 
+  "10.0.0.14/31": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 20, 
+      "prefix": "10.0.0.14/31", 
+      "nexthops": [
+        {
+          "interfaceName": "c0-a1-eth0", 
+          "ip": "10.0.0.14", 
+          "flags": 9, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv4"
+        }
+      ]
+    }, 
+    {
+      "protocol": "connected", 
+      "selected": true, 
+      "prefix": "10.0.0.14/31", 
+      "nexthops": [
+        {
+          "directlyConnected": true, 
+          "interfaceName": "c0-a1-eth0", 
+          "fib": true, 
+          "flags": 3, 
+          "active": true
+        }
+      ]
+    }
+  ]
+}
