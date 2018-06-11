@@ -82,7 +82,7 @@ def enable_router(routerName):
 
     tgen = get_topogen()
 
-    logger.info('Stopping Router {}'.format(routerName))
+    logger.info('Starting Router {}'.format(routerName))
     tgen.gears[routerName].start()
 
 
