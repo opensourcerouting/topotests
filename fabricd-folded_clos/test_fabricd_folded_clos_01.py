@@ -53,7 +53,7 @@ from lib.fabric_helper import *
 fatal_error = ""
 
 # Read Topology from file
-topoJson = open("clos_topo.json").read()
+topoJson = open('{0}/clos_topo.json'.format(CWD)).read()
 topo = json.loads(topoJson)
 
 
