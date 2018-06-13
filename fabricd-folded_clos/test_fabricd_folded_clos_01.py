@@ -241,8 +241,8 @@ def test_verify_routing_table_router_c3_disabled():
         raise AssertionError(errors)
 
 
-def test_verify_routing_table_router_a1_disabled():
-    "Shutdown router A1 and retest routing table"
+def test_verify_routing_table_router_a0_disabled():
+    "Shutdown router A0 and retest routing table"
 
     global fatal_error
 
@@ -255,8 +255,8 @@ def test_verify_routing_table_router_a1_disabled():
         raise AssertionError(errors)
 
 
-def test_verify_routing_table_router_a1_disabled():
-    "Shutdown router A1 and retest routing table"
+def test_verify_routing_table_router_d4_disabled():
+    "Shutdown router D4 and retest routing table"
 
     global fatal_error
 
