@@ -410,7 +410,7 @@ def save_routing_table(tgen, json_topo, filename_format):
 
         #logger.info('saving Routing table for Router {}'.format(curRouter))
 
-        with open(filename.format(curRouter, 'ipv6'), 'w') as route_file:
+        with open(filename_format.format(curRouter, 'ipv6'), 'w') as route_file:
             #json.dump(allroutes, route_file)
             route_file.write(json.dumps(allroutes, indent=2))
 
