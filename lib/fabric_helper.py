@@ -65,7 +65,7 @@ def enable_router(routerName):
 
     tgen = get_topogen()
 
-    logger.info('Stopping Router {}'.format(routerName))
+    logger.info('Starting Router {}'.format(routerName))
     tgen.gears[routerName].start()
 
 def build_topo_from_json(tgen, json_topo):
@@ -304,7 +304,7 @@ def verify_tier_levels(tgen, json_topo, tiers):
     return errors
 
 
-def verify_routing_table(tgen, json_topo, protocol, filename_format):
+def verify_routing_table(tgen, json_topo, protocol, filename_format, loopback_only=False):
     "Verify Routing table for given protocol against json file"
 
     # Filename needs to have 2 params {0} and {1} in it.
@@ -319,6 +319,23 @@ def verify_routing_table(tgen, json_topo, protocol, filename_format):
     for curRouter in listRouters:
         filename = filename_format.format(curRouter, protocol)
         expected = json.loads(open(filename, 'r').read())
+        if loopback_only:
+            # Drop all non-loopback routes and nexthop IP info
+            routes_to_ignore = []
+            for route in expected:
+                if json_topo['lo_prefix']['ipv4'] not in route:
+                    routes_to_ignore.append(route)
+                elif json_topo['lo_prefix']['ipv6'] not in route:
+                    routes_to_ignore.append(route)
+                else:
+                    for routeDetail in expected[route]:
+                        for nexthop in routeDetail['nexthops']:
+                            nexthop.pop('ip', None)
+            for route in routes_to_ignore:
+                expected.pop(route)
+
+        # pprint(expected, indent=2)
+
         if protocol == 'ipv4':
             actual = tgen.gears[curRouter].vtysh_cmd('show ip route json', isjson=True)
         else:
