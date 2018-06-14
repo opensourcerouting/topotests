@@ -1,0 +1,5591 @@
+{
+  "fd00:0:0:37::/64": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 20, 
+      "selected": true, 
+      "prefix": "fd00:0:0:37::/64", 
+      "nexthops": [
+        {
+          "interfaceName": "a2-c3-eth5", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }
+      ]
+    }
+  ], 
+  "2001:db8:f::2:1/128": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 30, 
+      "selected": true, 
+      "prefix": "2001:db8:f::2:1/128", 
+      "nexthops": [
+        {
+          "interfaceName": "a2-a1-eth0", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-a3-eth1", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-b1-eth2", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-b3-eth3", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-c1-eth4", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-c3-eth5", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-d1-eth6", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-d3-eth7", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }
+      ]
+    }
+  ], 
+  "fd00:0:0:52::/64": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 4124, 
+      "selected": true, 
+      "prefix": "fd00:0:0:52::/64", 
+      "nexthops": [
+        {
+          "interfaceName": "a2-a1-eth0", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }
+      ]
+    }
+  ], 
+  "fd00:0:0:69::/64": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 4124, 
+      "selected": true, 
+      "prefix": "fd00:0:0:69::/64", 
+      "nexthops": [
+        {
+          "interfaceName": "a2-b1-eth2", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }
+      ]
+    }
+  ], 
+  "fd00:0:0:29::/64": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 20, 
+      "selected": true, 
+      "prefix": "fd00:0:0:29::/64", 
+      "nexthops": [
+        {
+          "interfaceName": "a2-b3-eth3", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }
+      ]
+    }
+  ], 
+  "2001:db8:f::4:2/128": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 30, 
+      "selected": true, 
+      "prefix": "2001:db8:f::4:2/128", 
+      "nexthops": [
+        {
+          "interfaceName": "a2-b3-eth3", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }
+      ]
+    }
+  ], 
+  "fd00:0:0:76::/64": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 4124, 
+      "selected": true, 
+      "prefix": "fd00:0:0:76::/64", 
+      "nexthops": [
+        {
+          "interfaceName": "a2-b3-eth3", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }
+      ]
+    }
+  ], 
+  "2001:db8:f::5/128": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 30, 
+      "selected": true, 
+      "prefix": "2001:db8:f::5/128", 
+      "nexthops": [
+        {
+          "interfaceName": "a2-c1-eth4", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }
+      ]
+    }
+  ], 
+  "fd00:0:0:5d::/64": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 4134, 
+      "selected": true, 
+      "prefix": "fd00:0:0:5d::/64", 
+      "nexthops": [
+        {
+          "interfaceName": "a2-a1-eth0", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-a3-eth1", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-b1-eth2", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-b3-eth3", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-c1-eth4", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-c3-eth5", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-d1-eth6", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-d3-eth7", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }
+      ]
+    }
+  ], 
+  "fd00:0:0:6d::/64": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 4124, 
+      "selected": true, 
+      "prefix": "fd00:0:0:6d::/64", 
+      "nexthops": [
+        {
+          "interfaceName": "a2-b3-eth3", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }
+      ]
+    }
+  ], 
+  "fd00:0:0:19::/64": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 30, 
+      "selected": true, 
+      "prefix": "fd00:0:0:19::/64", 
+      "nexthops": [
+        {
+          "interfaceName": "a2-a1-eth0", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }
+      ]
+    }
+  ], 
+  "fd00:0:0:81::/64": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 4124, 
+      "selected": true, 
+      "prefix": "fd00:0:0:81::/64", 
+      "nexthops": [
+        {
+          "interfaceName": "a2-c1-eth4", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }
+      ]
+    }
+  ], 
+  "2001:db8:f::1:4/128": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 4124, 
+      "selected": true, 
+      "prefix": "2001:db8:f::1:4/128", 
+      "nexthops": [
+        {
+          "interfaceName": "a2-a1-eth0", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }
+      ]
+    }
+  ], 
+  "fd00:0:0:74::/64": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 4134, 
+      "selected": true, 
+      "prefix": "fd00:0:0:74::/64", 
+      "nexthops": [
+        {
+          "interfaceName": "a2-a1-eth0", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-a3-eth1", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-b1-eth2", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-b3-eth3", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-c1-eth4", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-c3-eth5", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-d1-eth6", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-d3-eth7", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }
+      ]
+    }
+  ], 
+  "fd00:0:0:96::/64": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 4124, 
+      "selected": true, 
+      "prefix": "fd00:0:0:96::/64", 
+      "nexthops": [
+        {
+          "interfaceName": "a2-d3-eth7", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }
+      ]
+    }
+  ], 
+  "fd00:0:0:75::/64": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 4134, 
+      "selected": true, 
+      "prefix": "fd00:0:0:75::/64", 
+      "nexthops": [
+        {
+          "interfaceName": "a2-a1-eth0", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-a3-eth1", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-b1-eth2", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-b3-eth3", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-c1-eth4", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-c3-eth5", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-d1-eth6", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-d3-eth7", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }
+      ]
+    }
+  ], 
+  "fd00:0:0:53::/64": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 4124, 
+      "selected": true, 
+      "prefix": "fd00:0:0:53::/64", 
+      "nexthops": [
+        {
+          "interfaceName": "a2-a1-eth0", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }
+      ]
+    }
+  ], 
+  "fd00:0:0:2f::/64": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 30, 
+      "selected": true, 
+      "prefix": "fd00:0:0:2f::/64", 
+      "nexthops": [
+        {
+          "interfaceName": "a2-a3-eth1", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }
+      ]
+    }
+  ], 
+  "fd00:0:0:7b::/64": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 30, 
+      "selected": true, 
+      "prefix": "fd00:0:0:7b::/64", 
+      "nexthops": [
+        {
+          "interfaceName": "a2-c3-eth5", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }
+      ]
+    }
+  ], 
+  "fd00:0:0:48::/64": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 20, 
+      "selected": true, 
+      "prefix": "fd00:0:0:48::/64", 
+      "nexthops": [
+        {
+          "interfaceName": "a2-d3-eth7", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }
+      ]
+    }
+  ], 
+  "fd00:0:0:57::/64": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 4124, 
+      "selected": true, 
+      "prefix": "fd00:0:0:57::/64", 
+      "nexthops": [
+        {
+          "interfaceName": "a2-b1-eth2", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }
+      ]
+    }
+  ], 
+  "2001:db8:f::3:2/128": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 20, 
+      "selected": true, 
+      "prefix": "2001:db8:f::3:2/128", 
+      "nexthops": [
+        {
+          "interfaceName": "a2-c3-eth5", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }
+      ]
+    }
+  ], 
+  "fe80::/64": [
+    {
+      "protocol": "connected", 
+      "prefix": "fe80::/64", 
+      "nexthops": [
+        {
+          "directlyConnected": true, 
+          "interfaceName": "a2-d1-eth6", 
+          "fib": true, 
+          "flags": 3, 
+          "active": true
+        }
+      ]
+    }, 
+    {
+      "protocol": "connected", 
+      "prefix": "fe80::/64", 
+      "nexthops": [
+        {
+          "directlyConnected": true, 
+          "interfaceName": "a2-d3-eth7", 
+          "fib": true, 
+          "flags": 3, 
+          "active": true
+        }
+      ]
+    }, 
+    {
+      "protocol": "connected", 
+      "prefix": "fe80::/64", 
+      "nexthops": [
+        {
+          "directlyConnected": true, 
+          "interfaceName": "a2-r1-eth10", 
+          "fib": true, 
+          "flags": 3, 
+          "active": true
+        }
+      ]
+    }, 
+    {
+      "protocol": "connected", 
+      "prefix": "fe80::/64", 
+      "nexthops": [
+        {
+          "directlyConnected": true, 
+          "interfaceName": "a2-a1-eth0", 
+          "fib": true, 
+          "flags": 3, 
+          "active": true
+        }
+      ]
+    }, 
+    {
+      "protocol": "connected", 
+      "prefix": "fe80::/64", 
+      "nexthops": [
+        {
+          "directlyConnected": true, 
+          "interfaceName": "a2-r3-eth11", 
+          "fib": true, 
+          "flags": 3, 
+          "active": true
+        }
+      ]
+    }, 
+    {
+      "protocol": "connected", 
+      "prefix": "fe80::/64", 
+      "nexthops": [
+        {
+          "directlyConnected": true, 
+          "interfaceName": "a2-c3-eth5", 
+          "fib": true, 
+          "flags": 3, 
+          "active": true
+        }
+      ]
+    }, 
+    {
+      "protocol": "connected", 
+      "prefix": "fe80::/64", 
+      "nexthops": [
+        {
+          "directlyConnected": true, 
+          "interfaceName": "a2-q3-eth9", 
+          "fib": true, 
+          "flags": 3, 
+          "active": true
+        }
+      ]
+    }, 
+    {
+      "protocol": "connected", 
+      "prefix": "fe80::/64", 
+      "nexthops": [
+        {
+          "directlyConnected": true, 
+          "interfaceName": "a2-b3-eth3", 
+          "fib": true, 
+          "flags": 3, 
+          "active": true
+        }
+      ]
+    }, 
+    {
+      "protocol": "connected", 
+      "prefix": "fe80::/64", 
+      "nexthops": [
+        {
+          "directlyConnected": true, 
+          "interfaceName": "a2-q1-eth8", 
+          "fib": true, 
+          "flags": 3, 
+          "active": true
+        }
+      ]
+    }, 
+    {
+      "protocol": "connected", 
+      "prefix": "fe80::/64", 
+      "nexthops": [
+        {
+          "directlyConnected": true, 
+          "interfaceName": "a2-c1-eth4", 
+          "fib": true, 
+          "flags": 3, 
+          "active": true
+        }
+      ]
+    }, 
+    {
+      "protocol": "connected", 
+      "prefix": "fe80::/64", 
+      "nexthops": [
+        {
+          "directlyConnected": true, 
+          "interfaceName": "a2-b1-eth2", 
+          "fib": true, 
+          "flags": 3, 
+          "active": true
+        }
+      ]
+    }, 
+    {
+      "protocol": "connected", 
+      "prefix": "fe80::/64", 
+      "nexthops": [
+        {
+          "directlyConnected": true, 
+          "interfaceName": "a2-a3-eth1", 
+          "fib": true, 
+          "flags": 3, 
+          "active": true
+        }
+      ]
+    }, 
+    {
+      "protocol": "connected", 
+      "selected": true, 
+      "prefix": "fe80::/64", 
+      "nexthops": [
+        {
+          "directlyConnected": true, 
+          "interfaceName": "lo", 
+          "fib": true, 
+          "flags": 3, 
+          "active": true
+        }
+      ]
+    }
+  ], 
+  "fd00:0:0:17::/64": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 20, 
+      "selected": true, 
+      "prefix": "fd00:0:0:17::/64", 
+      "nexthops": [
+        {
+          "interfaceName": "a2-a3-eth1", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }
+      ]
+    }
+  ], 
+  "2001:db8:f::3:0/128": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 20, 
+      "selected": true, 
+      "prefix": "2001:db8:f::3:0/128", 
+      "nexthops": [
+        {
+          "interfaceName": "a2-a3-eth1", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }
+      ]
+    }
+  ], 
+  "fd00:0:0:89::/64": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 4124, 
+      "selected": true, 
+      "prefix": "fd00:0:0:89::/64", 
+      "nexthops": [
+        {
+          "interfaceName": "a2-c3-eth5", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }
+      ]
+    }
+  ], 
+  "fd00:0:0:7::/64": [
+    {
+      "protocol": "connected", 
+      "selected": true, 
+      "prefix": "fd00:0:0:7::/64", 
+      "nexthops": [
+        {
+          "directlyConnected": true, 
+          "interfaceName": "a2-a3-eth1", 
+          "fib": true, 
+          "flags": 3, 
+          "active": true
+        }
+      ]
+    }
+  ], 
+  "fd00:0:0:97::/64": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 4124, 
+      "selected": true, 
+      "prefix": "fd00:0:0:97::/64", 
+      "nexthops": [
+        {
+          "interfaceName": "a2-d3-eth7", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }
+      ]
+    }
+  ], 
+  "2001:db8:f::4:1/128": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 30, 
+      "selected": true, 
+      "prefix": "2001:db8:f::4:1/128", 
+      "nexthops": [
+        {
+          "interfaceName": "a2-a3-eth1", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }
+      ]
+    }
+  ], 
+  "2001:db8:f::6/128": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 30, 
+      "selected": true, 
+      "prefix": "2001:db8:f::6/128", 
+      "nexthops": [
+        {
+          "interfaceName": "a2-d1-eth6", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }
+      ]
+    }
+  ], 
+  "2001:db8:f::3:4/128": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 4124, 
+      "selected": true, 
+      "prefix": "2001:db8:f::3:4/128", 
+      "nexthops": [
+        {
+          "interfaceName": "a2-a3-eth1", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }
+      ]
+    }
+  ], 
+  "fd00:0:0:18::/64": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 30, 
+      "selected": true, 
+      "prefix": "fd00:0:0:18::/64", 
+      "nexthops": [
+        {
+          "interfaceName": "a2-a1-eth0", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }
+      ]
+    }
+  ], 
+  "fd00:0:0:7c::/64": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 30, 
+      "selected": true, 
+      "prefix": "fd00:0:0:7c::/64", 
+      "nexthops": [
+        {
+          "interfaceName": "a2-d1-eth6", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }
+      ]
+    }
+  ], 
+  "fd00:0:0:16::/64": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 20, 
+      "selected": true, 
+      "prefix": "fd00:0:0:16::/64", 
+      "nexthops": [
+        {
+          "interfaceName": "a2-a3-eth1", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }
+      ]
+    }
+  ], 
+  "fd00:0:0:3c::/64": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 30, 
+      "selected": true, 
+      "prefix": "fd00:0:0:3c::/64", 
+      "nexthops": [
+        {
+          "interfaceName": "a2-a1-eth0", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-a3-eth1", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-b1-eth2", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-b3-eth3", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-c1-eth4", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-c3-eth5", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-d1-eth6", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-d3-eth7", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }
+      ]
+    }
+  ], 
+  "2001:db8:f::1:7/128": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 4124, 
+      "selected": true, 
+      "prefix": "2001:db8:f::1:7/128", 
+      "nexthops": [
+        {
+          "interfaceName": "a2-d1-eth6", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }
+      ]
+    }
+  ], 
+  "fd00:0:0:65::/64": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 4124, 
+      "selected": true, 
+      "prefix": "fd00:0:0:65::/64", 
+      "nexthops": [
+        {
+          "interfaceName": "a2-a3-eth1", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }
+      ]
+    }
+  ], 
+  "fd00:0:0:80::/64": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 4124, 
+      "selected": true, 
+      "prefix": "fd00:0:0:80::/64", 
+      "nexthops": [
+        {
+          "interfaceName": "a2-c1-eth4", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }
+      ]
+    }
+  ], 
+  "fd00:0:0:46::/64": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 20, 
+      "selected": true, 
+      "prefix": "fd00:0:0:46::/64", 
+      "nexthops": [
+        {
+          "interfaceName": "a2-d1-eth6", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }
+      ]
+    }
+  ], 
+  "fd00:0:0:4c::/64": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 30, 
+      "selected": true, 
+      "prefix": "fd00:0:0:4c::/64", 
+      "nexthops": [
+        {
+          "interfaceName": "a2-a1-eth0", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-a3-eth1", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-b1-eth2", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-b3-eth3", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-c1-eth4", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-c3-eth5", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-d1-eth6", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-d3-eth7", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }
+      ]
+    }
+  ], 
+  "fd00:0:0:9::/64": [
+    {
+      "protocol": "connected", 
+      "selected": true, 
+      "prefix": "fd00:0:0:9::/64", 
+      "nexthops": [
+        {
+          "directlyConnected": true, 
+          "interfaceName": "a2-b3-eth3", 
+          "fib": true, 
+          "flags": 3, 
+          "active": true
+        }
+      ]
+    }
+  ], 
+  "fd00:0:0:90::/64": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 4124, 
+      "selected": true, 
+      "prefix": "fd00:0:0:90::/64", 
+      "nexthops": [
+        {
+          "interfaceName": "a2-d1-eth6", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }
+      ]
+    }
+  ], 
+  "fd00:0:0:71::/64": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 4124, 
+      "selected": true, 
+      "prefix": "fd00:0:0:71::/64", 
+      "nexthops": [
+        {
+          "interfaceName": "a2-d3-eth7", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }
+      ]
+    }
+  ], 
+  "fd00:0:0:3e::/64": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 20, 
+      "selected": true, 
+      "prefix": "fd00:0:0:3e::/64", 
+      "nexthops": [
+        {
+          "interfaceName": "a2-c3-eth5", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }
+      ]
+    }
+  ], 
+  "2001:db8:f::1/128": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 30, 
+      "selected": true, 
+      "prefix": "2001:db8:f::1/128", 
+      "nexthops": [
+        {
+          "interfaceName": "a2-a1-eth0", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }
+      ]
+    }
+  ], 
+  "fd00:0:0:26::/64": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 30, 
+      "selected": true, 
+      "prefix": "fd00:0:0:26::/64", 
+      "nexthops": [
+        {
+          "interfaceName": "a2-a1-eth0", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-a3-eth1", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-b1-eth2", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-b3-eth3", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-c1-eth4", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-c3-eth5", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-d1-eth6", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-d3-eth7", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }
+      ]
+    }
+  ], 
+  "fd00:0:0:45::/64": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 20, 
+      "selected": true, 
+      "prefix": "fd00:0:0:45::/64", 
+      "nexthops": [
+        {
+          "interfaceName": "a2-d1-eth6", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }
+      ]
+    }
+  ], 
+  "fd00:0:0:62::/64": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 4124, 
+      "selected": true, 
+      "prefix": "fd00:0:0:62::/64", 
+      "nexthops": [
+        {
+          "interfaceName": "a2-a3-eth1", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }
+      ]
+    }
+  ], 
+  "fd00:0:0:34::/64": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 20, 
+      "selected": true, 
+      "prefix": "fd00:0:0:34::/64", 
+      "nexthops": [
+        {
+          "interfaceName": "a2-c1-eth4", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }
+      ]
+    }
+  ], 
+  "fd00:0:0:47::/64": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 20, 
+      "selected": true, 
+      "prefix": "fd00:0:0:47::/64", 
+      "nexthops": [
+        {
+          "interfaceName": "a2-d1-eth6", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }
+      ]
+    }
+  ], 
+  "fd00:0:0:31::/64": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 30, 
+      "selected": true, 
+      "prefix": "fd00:0:0:31::/64", 
+      "nexthops": [
+        {
+          "interfaceName": "a2-b1-eth2", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }
+      ]
+    }
+  ], 
+  "fd00:0:0:64::/64": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 4124, 
+      "selected": true, 
+      "prefix": "fd00:0:0:64::/64", 
+      "nexthops": [
+        {
+          "interfaceName": "a2-a3-eth1", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }
+      ]
+    }
+  ], 
+  "fd00:0:0:67::/64": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 30, 
+      "selected": true, 
+      "prefix": "fd00:0:0:67::/64", 
+      "nexthops": [
+        {
+          "interfaceName": "a2-c1-eth4", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }
+      ]
+    }
+  ], 
+  "fd00:0:0:88::/64": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 4134, 
+      "selected": true, 
+      "prefix": "fd00:0:0:88::/64", 
+      "nexthops": [
+        {
+          "interfaceName": "a2-a1-eth0", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-a3-eth1", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-b1-eth2", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-b3-eth3", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-c1-eth4", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-c3-eth5", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-d1-eth6", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-d3-eth7", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }
+      ]
+    }
+  ], 
+  "fd00:0:0:4a::/64": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 30, 
+      "selected": true, 
+      "prefix": "fd00:0:0:4a::/64", 
+      "nexthops": [
+        {
+          "interfaceName": "a2-a1-eth0", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-a3-eth1", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-b1-eth2", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-b3-eth3", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-c1-eth4", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-c3-eth5", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-d1-eth6", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-d3-eth7", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }
+      ]
+    }
+  ], 
+  "fd00:0:0:3b::/64": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 30, 
+      "selected": true, 
+      "prefix": "fd00:0:0:3b::/64", 
+      "nexthops": [
+        {
+          "interfaceName": "a2-a1-eth0", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-a3-eth1", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-b1-eth2", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-b3-eth3", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-c1-eth4", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-c3-eth5", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-d1-eth6", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-d3-eth7", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }
+      ]
+    }
+  ], 
+  "fd00:0:0:3a::/64": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 30, 
+      "selected": true, 
+      "prefix": "fd00:0:0:3a::/64", 
+      "nexthops": [
+        {
+          "interfaceName": "a2-a1-eth0", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-a3-eth1", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-b1-eth2", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-b3-eth3", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-c1-eth4", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-c3-eth5", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-d1-eth6", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-d3-eth7", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }
+      ]
+    }
+  ], 
+  "fd00:0:0:50::/64": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 4124, 
+      "selected": true, 
+      "prefix": "fd00:0:0:50::/64", 
+      "nexthops": [
+        {
+          "interfaceName": "a2-a1-eth0", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }
+      ]
+    }
+  ], 
+  "2001:db8:f::1:5/128": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 4124, 
+      "selected": true, 
+      "prefix": "2001:db8:f::1:5/128", 
+      "nexthops": [
+        {
+          "interfaceName": "a2-b1-eth2", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }
+      ]
+    }
+  ], 
+  "fd00:0:0:25::/64": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 30, 
+      "selected": true, 
+      "prefix": "fd00:0:0:25::/64", 
+      "nexthops": [
+        {
+          "interfaceName": "a2-a1-eth0", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-a3-eth1", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-b1-eth2", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-b3-eth3", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-c1-eth4", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-c3-eth5", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-d1-eth6", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-d3-eth7", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }
+      ]
+    }
+  ], 
+  "fd00:0:0:5::/64": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 20, 
+      "selected": true, 
+      "prefix": "fd00:0:0:5::/64", 
+      "nexthops": [
+        {
+          "interfaceName": "a2-a1-eth0", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }
+      ]
+    }
+  ], 
+  "fd00:0:0:2a::/64": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 20, 
+      "selected": true, 
+      "prefix": "fd00:0:0:2a::/64", 
+      "nexthops": [
+        {
+          "interfaceName": "a2-b3-eth3", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }
+      ]
+    }
+  ], 
+  "fd00:0:0:83::/64": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 4124, 
+      "selected": true, 
+      "prefix": "fd00:0:0:83::/64", 
+      "nexthops": [
+        {
+          "interfaceName": "a2-d1-eth6", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }
+      ]
+    }
+  ], 
+  "fd00:0:0:1b::/64": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 20, 
+      "selected": true, 
+      "prefix": "fd00:0:0:1b::/64", 
+      "nexthops": [
+        {
+          "interfaceName": "a2-b1-eth2", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }
+      ]
+    }
+  ], 
+  "2001:db8:f::4:5/128": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 30, 
+      "selected": true, 
+      "prefix": "2001:db8:f::4:5/128", 
+      "nexthops": [
+        {
+          "interfaceName": "a2-c3-eth5", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }
+      ]
+    }
+  ], 
+  "fd00:0:0:35::/64": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 20, 
+      "selected": true, 
+      "prefix": "fd00:0:0:35::/64", 
+      "nexthops": [
+        {
+          "interfaceName": "a2-c1-eth4", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }
+      ]
+    }
+  ], 
+  "fd00:0:0:91::/64": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 4124, 
+      "selected": true, 
+      "prefix": "fd00:0:0:91::/64", 
+      "nexthops": [
+        {
+          "interfaceName": "a2-d3-eth7", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }
+      ]
+    }
+  ], 
+  "2001:db8:f::4:6/128": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 30, 
+      "selected": true, 
+      "prefix": "2001:db8:f::4:6/128", 
+      "nexthops": [
+        {
+          "interfaceName": "a2-d3-eth7", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }
+      ]
+    }
+  ], 
+  "2001:db8:f::1:1/128": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 20, 
+      "selected": true, 
+      "prefix": "2001:db8:f::1:1/128", 
+      "nexthops": [
+        {
+          "interfaceName": "a2-b1-eth2", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }
+      ]
+    }
+  ], 
+  "fd00:0:0:8e::/64": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 4124, 
+      "selected": true, 
+      "prefix": "fd00:0:0:8e::/64", 
+      "nexthops": [
+        {
+          "interfaceName": "a2-d1-eth6", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }
+      ]
+    }
+  ], 
+  "2001:db8:f::2:5/128": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 4134, 
+      "selected": true, 
+      "prefix": "2001:db8:f::2:5/128", 
+      "nexthops": [
+        {
+          "interfaceName": "a2-a1-eth0", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-a3-eth1", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-b1-eth2", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-b3-eth3", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-c1-eth4", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-c3-eth5", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-d1-eth6", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-d3-eth7", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }
+      ]
+    }
+  ], 
+  "fd00:0:0:27::/64": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 30, 
+      "selected": true, 
+      "prefix": "fd00:0:0:27::/64", 
+      "nexthops": [
+        {
+          "interfaceName": "a2-a1-eth0", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-a3-eth1", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-b1-eth2", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-b3-eth3", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-c1-eth4", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-c3-eth5", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-d1-eth6", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-d3-eth7", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }
+      ]
+    }
+  ], 
+  "fd00:0:0:94::/64": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 4134, 
+      "selected": true, 
+      "prefix": "fd00:0:0:94::/64", 
+      "nexthops": [
+        {
+          "interfaceName": "a2-a1-eth0", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-a3-eth1", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-b1-eth2", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-b3-eth3", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-c1-eth4", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-c3-eth5", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-d1-eth6", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-d3-eth7", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }
+      ]
+    }
+  ], 
+  "fd00:0:0:6b::/64": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 4124, 
+      "selected": true, 
+      "prefix": "fd00:0:0:6b::/64", 
+      "nexthops": [
+        {
+          "interfaceName": "a2-b1-eth2", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }
+      ]
+    }
+  ], 
+  "fd00:0:0:42::/64": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 30, 
+      "selected": true, 
+      "prefix": "fd00:0:0:42::/64", 
+      "nexthops": [
+        {
+          "interfaceName": "a2-b3-eth3", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }
+      ]
+    }
+  ], 
+  "fd00:0:0:2c::/64": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 20, 
+      "selected": true, 
+      "prefix": "fd00:0:0:2c::/64", 
+      "nexthops": [
+        {
+          "interfaceName": "a2-b3-eth3", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }
+      ]
+    }
+  ], 
+  "fd00:0:0:8c::/64": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 30, 
+      "selected": true, 
+      "prefix": "fd00:0:0:8c::/64", 
+      "nexthops": [
+        {
+          "interfaceName": "a2-d3-eth7", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }
+      ]
+    }
+  ], 
+  "fd00:0:0:28::/64": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 30, 
+      "selected": true, 
+      "prefix": "fd00:0:0:28::/64", 
+      "nexthops": [
+        {
+          "interfaceName": "a2-a1-eth0", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-a3-eth1", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-b1-eth2", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-b3-eth3", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-c1-eth4", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-c3-eth5", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-d1-eth6", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-d3-eth7", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }
+      ]
+    }
+  ], 
+  "fd00:0:0:5b::/64": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 4124, 
+      "selected": true, 
+      "prefix": "fd00:0:0:5b::/64", 
+      "nexthops": [
+        {
+          "interfaceName": "a2-d1-eth6", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }
+      ]
+    }
+  ], 
+  "2001:db8:f::3:6/128": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 4124, 
+      "selected": true, 
+      "prefix": "2001:db8:f::3:6/128", 
+      "nexthops": [
+        {
+          "interfaceName": "a2-c3-eth5", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }
+      ]
+    }
+  ], 
+  "2001:db8:f::1:6/128": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 4124, 
+      "selected": true, 
+      "prefix": "2001:db8:f::1:6/128", 
+      "nexthops": [
+        {
+          "interfaceName": "a2-c1-eth4", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }
+      ]
+    }
+  ], 
+  "fd00:0:0:54::/64": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 4124, 
+      "selected": true, 
+      "prefix": "fd00:0:0:54::/64", 
+      "nexthops": [
+        {
+          "interfaceName": "a2-a1-eth0", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }
+      ]
+    }
+  ], 
+  "fd00:0:0:92::/64": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 4134, 
+      "selected": true, 
+      "prefix": "fd00:0:0:92::/64", 
+      "nexthops": [
+        {
+          "interfaceName": "a2-a1-eth0", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-a3-eth1", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-b1-eth2", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-b3-eth3", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-c1-eth4", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-c3-eth5", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-d1-eth6", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-d3-eth7", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }
+      ]
+    }
+  ], 
+  "2001:db8:f::2:2/128": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 30, 
+      "selected": true, 
+      "prefix": "2001:db8:f::2:2/128", 
+      "nexthops": [
+        {
+          "interfaceName": "a2-a1-eth0", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-a3-eth1", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-b1-eth2", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-b3-eth3", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-c1-eth4", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-c3-eth5", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-d1-eth6", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-d3-eth7", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }
+      ]
+    }
+  ], 
+  "2001:db8:f::3:3/128": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 20, 
+      "selected": true, 
+      "prefix": "2001:db8:f::3:3/128", 
+      "nexthops": [
+        {
+          "interfaceName": "a2-d3-eth7", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }
+      ]
+    }
+  ], 
+  "2001:db8:f::1:2/128": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 20, 
+      "selected": true, 
+      "prefix": "2001:db8:f::1:2/128", 
+      "nexthops": [
+        {
+          "interfaceName": "a2-c1-eth4", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }
+      ]
+    }
+  ], 
+  "fd00:0:0:14::/64": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 20, 
+      "selected": true, 
+      "prefix": "fd00:0:0:14::/64", 
+      "nexthops": [
+        {
+          "interfaceName": "a2-a3-eth1", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }
+      ]
+    }
+  ], 
+  "fd00:0:0:60::/64": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 4134, 
+      "selected": true, 
+      "prefix": "fd00:0:0:60::/64", 
+      "nexthops": [
+        {
+          "interfaceName": "a2-a1-eth0", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-a3-eth1", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-b1-eth2", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-b3-eth3", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-c1-eth4", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-c3-eth5", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-d1-eth6", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-d3-eth7", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }
+      ]
+    }
+  ], 
+  "fd00:0:0:6c::/64": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 4124, 
+      "selected": true, 
+      "prefix": "fd00:0:0:6c::/64", 
+      "nexthops": [
+        {
+          "interfaceName": "a2-b1-eth2", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }
+      ]
+    }
+  ], 
+  "fd00:0:0:7e::/64": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 4124, 
+      "selected": true, 
+      "prefix": "fd00:0:0:7e::/64", 
+      "nexthops": [
+        {
+          "interfaceName": "a2-c1-eth4", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }
+      ]
+    }
+  ], 
+  "fd00:0:0:22::/64": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 20, 
+      "selected": true, 
+      "prefix": "fd00:0:0:22::/64", 
+      "nexthops": [
+        {
+          "interfaceName": "a2-c3-eth5", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }
+      ]
+    }
+  ], 
+  "fd00:0:0:11::/64": [
+    {
+      "protocol": "connected", 
+      "selected": true, 
+      "prefix": "fd00:0:0:11::/64", 
+      "nexthops": [
+        {
+          "directlyConnected": true, 
+          "interfaceName": "a2-r3-eth11", 
+          "fib": true, 
+          "flags": 3, 
+          "active": true
+        }
+      ]
+    }
+  ], 
+  "fd00:0:0:d::/64": [
+    {
+      "protocol": "connected", 
+      "selected": true, 
+      "prefix": "fd00:0:0:d::/64", 
+      "nexthops": [
+        {
+          "directlyConnected": true, 
+          "interfaceName": "a2-d3-eth7", 
+          "fib": true, 
+          "flags": 3, 
+          "active": true
+        }
+      ]
+    }
+  ], 
+  "fd00:0:0:49::/64": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 30, 
+      "selected": true, 
+      "prefix": "fd00:0:0:49::/64", 
+      "nexthops": [
+        {
+          "interfaceName": "a2-a1-eth0", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-a3-eth1", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-b1-eth2", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-b3-eth3", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-c1-eth4", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-c3-eth5", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-d1-eth6", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-d3-eth7", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }
+      ]
+    }
+  ], 
+  "fd00:0:0:55::/64": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 4124, 
+      "selected": true, 
+      "prefix": "fd00:0:0:55::/64", 
+      "nexthops": [
+        {
+          "interfaceName": "a2-a1-eth0", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }
+      ]
+    }
+  ], 
+  "fd00:0:0:95::/64": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 4134, 
+      "selected": true, 
+      "prefix": "fd00:0:0:95::/64", 
+      "nexthops": [
+        {
+          "interfaceName": "a2-a1-eth0", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-a3-eth1", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-b1-eth2", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-b3-eth3", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-c1-eth4", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-c3-eth5", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-d1-eth6", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-d3-eth7", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }
+      ]
+    }
+  ], 
+  "fd00:0:0:15::/64": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 20, 
+      "selected": true, 
+      "prefix": "fd00:0:0:15::/64", 
+      "nexthops": [
+        {
+          "interfaceName": "a2-a3-eth1", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }
+      ]
+    }
+  ], 
+  "fd00:0:0:36::/64": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 20, 
+      "selected": true, 
+      "prefix": "fd00:0:0:36::/64", 
+      "nexthops": [
+        {
+          "interfaceName": "a2-c1-eth4", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }
+      ]
+    }
+  ], 
+  "fd00:0:0:23::/64": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 20, 
+      "selected": true, 
+      "prefix": "fd00:0:0:23::/64", 
+      "nexthops": [
+        {
+          "interfaceName": "a2-d1-eth6", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }
+      ]
+    }
+  ], 
+  "fd00:0:0:7f::/64": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 4124, 
+      "selected": true, 
+      "prefix": "fd00:0:0:7f::/64", 
+      "nexthops": [
+        {
+          "interfaceName": "a2-c1-eth4", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }
+      ]
+    }
+  ], 
+  "fd00:0:0:72::/64": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 4134, 
+      "selected": true, 
+      "prefix": "fd00:0:0:72::/64", 
+      "nexthops": [
+        {
+          "interfaceName": "a2-a1-eth0", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-a3-eth1", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-b1-eth2", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-b3-eth3", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-c1-eth4", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-c3-eth5", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-d1-eth6", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-d3-eth7", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }
+      ]
+    }
+  ], 
+  "fd00:0:0:8::/64": [
+    {
+      "protocol": "connected", 
+      "selected": true, 
+      "prefix": "fd00:0:0:8::/64", 
+      "nexthops": [
+        {
+          "directlyConnected": true, 
+          "interfaceName": "a2-b1-eth2", 
+          "fib": true, 
+          "flags": 3, 
+          "active": true
+        }
+      ]
+    }
+  ], 
+  "fd00:0:0:93::/64": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 4134, 
+      "selected": true, 
+      "prefix": "fd00:0:0:93::/64", 
+      "nexthops": [
+        {
+          "interfaceName": "a2-a1-eth0", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-a3-eth1", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-b1-eth2", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-b3-eth3", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-c1-eth4", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-c3-eth5", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-d1-eth6", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-d3-eth7", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }
+      ]
+    }
+  ], 
+  "fd00:0:0:3f::/64": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 20, 
+      "selected": true, 
+      "prefix": "fd00:0:0:3f::/64", 
+      "nexthops": [
+        {
+          "interfaceName": "a2-c3-eth5", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }
+      ]
+    }
+  ], 
+  "fd00:0:0:c::/64": [
+    {
+      "protocol": "connected", 
+      "selected": true, 
+      "prefix": "fd00:0:0:c::/64", 
+      "nexthops": [
+        {
+          "directlyConnected": true, 
+          "interfaceName": "a2-d1-eth6", 
+          "fib": true, 
+          "flags": 3, 
+          "active": true
+        }
+      ]
+    }
+  ], 
+  "fd00:0:0:8f::/64": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 4124, 
+      "selected": true, 
+      "prefix": "fd00:0:0:8f::/64", 
+      "nexthops": [
+        {
+          "interfaceName": "a2-d1-eth6", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }
+      ]
+    }
+  ], 
+  "fd00:0:0:2d::/64": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 20, 
+      "selected": true, 
+      "prefix": "fd00:0:0:2d::/64", 
+      "nexthops": [
+        {
+          "interfaceName": "a2-b3-eth3", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }
+      ]
+    }
+  ], 
+  "2001:db8:f::3:5/128": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 4124, 
+      "selected": true, 
+      "prefix": "2001:db8:f::3:5/128", 
+      "nexthops": [
+        {
+          "interfaceName": "a2-b3-eth3", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }
+      ]
+    }
+  ], 
+  "fd00::/64": [
+    {
+      "protocol": "connected", 
+      "selected": true, 
+      "prefix": "fd00::/64", 
+      "nexthops": [
+        {
+          "directlyConnected": true, 
+          "interfaceName": "a2-a1-eth0", 
+          "fib": true, 
+          "flags": 3, 
+          "active": true
+        }
+      ]
+    }
+  ], 
+  "fd00:0:0:5e::/64": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 4134, 
+      "selected": true, 
+      "prefix": "fd00:0:0:5e::/64", 
+      "nexthops": [
+        {
+          "interfaceName": "a2-a1-eth0", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-a3-eth1", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-b1-eth2", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-b3-eth3", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-c1-eth4", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-c3-eth5", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-d1-eth6", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-d3-eth7", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }
+      ]
+    }
+  ], 
+  "2001:db8:f::2/128": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 30, 
+      "selected": true, 
+      "prefix": "2001:db8:f::2/128", 
+      "nexthops": [
+        {
+          "interfaceName": "a2-b1-eth2", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }
+      ]
+    }
+  ], 
+  "fd00:0:0:8b::/64": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 4124, 
+      "selected": true, 
+      "prefix": "fd00:0:0:8b::/64", 
+      "nexthops": [
+        {
+          "interfaceName": "a2-c3-eth5", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }
+      ]
+    }
+  ], 
+  "fd00:0:0:6a::/64": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 4124, 
+      "selected": true, 
+      "prefix": "fd00:0:0:6a::/64", 
+      "nexthops": [
+        {
+          "interfaceName": "a2-b1-eth2", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }
+      ]
+    }
+  ], 
+  "fd00:0:0:56::/64": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 4124, 
+      "selected": true, 
+      "prefix": "fd00:0:0:56::/64", 
+      "nexthops": [
+        {
+          "interfaceName": "a2-a3-eth1", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }
+      ]
+    }
+  ], 
+  "fd00:0:0:1::/64": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 20, 
+      "selected": true, 
+      "prefix": "fd00:0:0:1::/64", 
+      "nexthops": [
+        {
+          "interfaceName": "a2-a1-eth0", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }
+      ]
+    }
+  ], 
+  "fd00:0:0:41::/64": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 20, 
+      "selected": true, 
+      "prefix": "fd00:0:0:41::/64", 
+      "nexthops": [
+        {
+          "interfaceName": "a2-c3-eth5", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }
+      ]
+    }
+  ], 
+  "fd00:0:0:b::/64": [
+    {
+      "protocol": "connected", 
+      "selected": true, 
+      "prefix": "fd00:0:0:b::/64", 
+      "nexthops": [
+        {
+          "directlyConnected": true, 
+          "interfaceName": "a2-c3-eth5", 
+          "fib": true, 
+          "flags": 3, 
+          "active": true
+        }
+      ]
+    }
+  ], 
+  "fd00:0:0:44::/64": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 20, 
+      "selected": true, 
+      "prefix": "fd00:0:0:44::/64", 
+      "nexthops": [
+        {
+          "interfaceName": "a2-d1-eth6", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }
+      ]
+    }
+  ], 
+  "2001:db8:f::2:3/128": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 30, 
+      "selected": true, 
+      "prefix": "2001:db8:f::2:3/128", 
+      "nexthops": [
+        {
+          "interfaceName": "a2-a1-eth0", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-a3-eth1", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-b1-eth2", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-b3-eth3", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-c1-eth4", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-c3-eth5", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-d1-eth6", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-d3-eth7", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }
+      ]
+    }
+  ], 
+  "fd00:0:0:70::/64": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 4124, 
+      "selected": true, 
+      "prefix": "fd00:0:0:70::/64", 
+      "nexthops": [
+        {
+          "interfaceName": "a2-d1-eth6", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }
+      ]
+    }
+  ], 
+  "fd00:0:0:61::/64": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 4124, 
+      "selected": true, 
+      "prefix": "fd00:0:0:61::/64", 
+      "nexthops": [
+        {
+          "interfaceName": "a2-a3-eth1", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }
+      ]
+    }
+  ], 
+  "fd00:0:0:3d::/64": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 30, 
+      "selected": true, 
+      "prefix": "fd00:0:0:3d::/64", 
+      "nexthops": [
+        {
+          "interfaceName": "a2-a1-eth0", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-a3-eth1", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-b1-eth2", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-b3-eth3", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-c1-eth4", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-c3-eth5", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-d1-eth6", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-d3-eth7", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }
+      ]
+    }
+  ], 
+  "2001:db8:f::1:3/128": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 20, 
+      "selected": true, 
+      "prefix": "2001:db8:f::1:3/128", 
+      "nexthops": [
+        {
+          "interfaceName": "a2-d1-eth6", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }
+      ]
+    }
+  ], 
+  "fd00:0:0:7d::/64": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 30, 
+      "selected": true, 
+      "prefix": "fd00:0:0:7d::/64", 
+      "nexthops": [
+        {
+          "interfaceName": "a2-d1-eth6", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }
+      ]
+    }
+  ], 
+  "fd00:0:0:86::/64": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 4134, 
+      "selected": true, 
+      "prefix": "fd00:0:0:86::/64", 
+      "nexthops": [
+        {
+          "interfaceName": "a2-a1-eth0", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-a3-eth1", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-b1-eth2", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-b3-eth3", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-c1-eth4", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-c3-eth5", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-d1-eth6", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-d3-eth7", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }
+      ]
+    }
+  ], 
+  "fd00:0:0:1d::/64": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 20, 
+      "selected": true, 
+      "prefix": "fd00:0:0:1d::/64", 
+      "nexthops": [
+        {
+          "interfaceName": "a2-b1-eth2", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }
+      ]
+    }
+  ], 
+  "fd00:0:0:85::/64": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 4134, 
+      "selected": true, 
+      "prefix": "fd00:0:0:85::/64", 
+      "nexthops": [
+        {
+          "interfaceName": "a2-a1-eth0", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-a3-eth1", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-b1-eth2", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-b3-eth3", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-c1-eth4", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-c3-eth5", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-d1-eth6", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-d3-eth7", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }
+      ]
+    }
+  ], 
+  "2001:db8:f::2:0/128": [
+    {
+      "protocol": "connected", 
+      "selected": true, 
+      "prefix": "2001:db8:f::2:0/128", 
+      "nexthops": [
+        {
+          "directlyConnected": true, 
+          "interfaceName": "lo", 
+          "fib": true, 
+          "flags": 3, 
+          "active": true
+        }
+      ]
+    }
+  ], 
+  "fd00:0:0:38::/64": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 20, 
+      "selected": true, 
+      "prefix": "fd00:0:0:38::/64", 
+      "nexthops": [
+        {
+          "interfaceName": "a2-d1-eth6", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }
+      ]
+    }
+  ], 
+  "fd00:0:0:40::/64": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 20, 
+      "selected": true, 
+      "prefix": "fd00:0:0:40::/64", 
+      "nexthops": [
+        {
+          "interfaceName": "a2-c3-eth5", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }
+      ]
+    }
+  ], 
+  "2001:db8:f::2:7/128": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 4134, 
+      "selected": true, 
+      "prefix": "2001:db8:f::2:7/128", 
+      "nexthops": [
+        {
+          "interfaceName": "a2-a1-eth0", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-a3-eth1", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-b1-eth2", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-b3-eth3", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-c1-eth4", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-c3-eth5", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-d1-eth6", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-d3-eth7", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }
+      ]
+    }
+  ], 
+  "fd00:0:0:2::/64": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 20, 
+      "selected": true, 
+      "prefix": "fd00:0:0:2::/64", 
+      "nexthops": [
+        {
+          "interfaceName": "a2-a1-eth0", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }
+      ]
+    }
+  ], 
+  "fd00:0:0:51::/64": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 4124, 
+      "selected": true, 
+      "prefix": "fd00:0:0:51::/64", 
+      "nexthops": [
+        {
+          "interfaceName": "a2-a1-eth0", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }
+      ]
+    }
+  ], 
+  "fd00:0:0:7a::/64": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 30, 
+      "selected": true, 
+      "prefix": "fd00:0:0:7a::/64", 
+      "nexthops": [
+        {
+          "interfaceName": "a2-c3-eth5", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }
+      ]
+    }
+  ], 
+  "fd00:0:0:78::/64": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 4124, 
+      "selected": true, 
+      "prefix": "fd00:0:0:78::/64", 
+      "nexthops": [
+        {
+          "interfaceName": "a2-b3-eth3", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }
+      ]
+    }
+  ], 
+  "2001:db8:f::1:0/128": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 20, 
+      "selected": true, 
+      "prefix": "2001:db8:f::1:0/128", 
+      "nexthops": [
+        {
+          "interfaceName": "a2-a1-eth0", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }
+      ]
+    }
+  ], 
+  "fd00:0:0:1e::/64": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 20, 
+      "selected": true, 
+      "prefix": "fd00:0:0:1e::/64", 
+      "nexthops": [
+        {
+          "interfaceName": "a2-b1-eth2", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }
+      ]
+    }
+  ], 
+  "fd00:0:0:84::/64": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 4124, 
+      "selected": true, 
+      "prefix": "fd00:0:0:84::/64", 
+      "nexthops": [
+        {
+          "interfaceName": "a2-d3-eth7", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }
+      ]
+    }
+  ], 
+  "fd00:0:0:1f::/64": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 20, 
+      "selected": true, 
+      "prefix": "fd00:0:0:1f::/64", 
+      "nexthops": [
+        {
+          "interfaceName": "a2-b1-eth2", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }
+      ]
+    }
+  ], 
+  "fd00:0:0:33::/64": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 20, 
+      "selected": true, 
+      "prefix": "fd00:0:0:33::/64", 
+      "nexthops": [
+        {
+          "interfaceName": "a2-c1-eth4", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }
+      ]
+    }
+  ], 
+  "fd00:0:0:2e::/64": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 30, 
+      "selected": true, 
+      "prefix": "fd00:0:0:2e::/64", 
+      "nexthops": [
+        {
+          "interfaceName": "a2-a3-eth1", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }
+      ]
+    }
+  ], 
+  "fd00:0:0:4e::/64": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 20, 
+      "selected": true, 
+      "prefix": "fd00:0:0:4e::/64", 
+      "nexthops": [
+        {
+          "interfaceName": "a2-d3-eth7", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }
+      ]
+    }
+  ], 
+  "fd00:0:0:4b::/64": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 30, 
+      "selected": true, 
+      "prefix": "fd00:0:0:4b::/64", 
+      "nexthops": [
+        {
+          "interfaceName": "a2-a1-eth0", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-a3-eth1", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-b1-eth2", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-b3-eth3", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-c1-eth4", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-c3-eth5", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-d1-eth6", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-d3-eth7", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }
+      ]
+    }
+  ], 
+  "fd00:0:0:a::/64": [
+    {
+      "protocol": "connected", 
+      "selected": true, 
+      "prefix": "fd00:0:0:a::/64", 
+      "nexthops": [
+        {
+          "directlyConnected": true, 
+          "interfaceName": "a2-c1-eth4", 
+          "fib": true, 
+          "flags": 3, 
+          "active": true
+        }
+      ]
+    }
+  ], 
+  "fd00:0:0:4f::/64": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 20, 
+      "selected": true, 
+      "prefix": "fd00:0:0:4f::/64", 
+      "nexthops": [
+        {
+          "interfaceName": "a2-d3-eth7", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }
+      ]
+    }
+  ], 
+  "fd00:0:0:58::/64": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 4124, 
+      "selected": true, 
+      "prefix": "fd00:0:0:58::/64", 
+      "nexthops": [
+        {
+          "interfaceName": "a2-b3-eth3", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }
+      ]
+    }
+  ], 
+  "fd00:0:0:1c::/64": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 20, 
+      "selected": true, 
+      "prefix": "fd00:0:0:1c::/64", 
+      "nexthops": [
+        {
+          "interfaceName": "a2-b1-eth2", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }
+      ]
+    }
+  ], 
+  "fd00:0:0:63::/64": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 4124, 
+      "selected": true, 
+      "prefix": "fd00:0:0:63::/64", 
+      "nexthops": [
+        {
+          "interfaceName": "a2-a3-eth1", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }
+      ]
+    }
+  ], 
+  "2001:db8:f::2:4/128": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 4134, 
+      "selected": true, 
+      "prefix": "2001:db8:f::2:4/128", 
+      "nexthops": [
+        {
+          "interfaceName": "a2-a1-eth0", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-a3-eth1", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-b1-eth2", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-b3-eth3", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-c1-eth4", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-c3-eth5", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-d1-eth6", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-d3-eth7", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }
+      ]
+    }
+  ], 
+  "fd00:0:0:79::/64": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 4124, 
+      "selected": true, 
+      "prefix": "fd00:0:0:79::/64", 
+      "nexthops": [
+        {
+          "interfaceName": "a2-b3-eth3", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }
+      ]
+    }
+  ], 
+  "fd00:0:0:39::/64": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 20, 
+      "selected": true, 
+      "prefix": "fd00:0:0:39::/64", 
+      "nexthops": [
+        {
+          "interfaceName": "a2-d3-eth7", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }
+      ]
+    }
+  ], 
+  "fd00:0:0:8a::/64": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 4124, 
+      "selected": true, 
+      "prefix": "fd00:0:0:8a::/64", 
+      "nexthops": [
+        {
+          "interfaceName": "a2-c3-eth5", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }
+      ]
+    }
+  ], 
+  "fd00:0:0:21::/64": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 20, 
+      "selected": true, 
+      "prefix": "fd00:0:0:21::/64", 
+      "nexthops": [
+        {
+          "interfaceName": "a2-c1-eth4", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }
+      ]
+    }
+  ], 
+  "fd00:0:0:66::/64": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 30, 
+      "selected": true, 
+      "prefix": "fd00:0:0:66::/64", 
+      "nexthops": [
+        {
+          "interfaceName": "a2-c1-eth4", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }
+      ]
+    }
+  ], 
+  "fd00:0:0:77::/64": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 4124, 
+      "selected": true, 
+      "prefix": "fd00:0:0:77::/64", 
+      "nexthops": [
+        {
+          "interfaceName": "a2-b3-eth3", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }
+      ]
+    }
+  ], 
+  "fd00:0:0:6e::/64": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 4124, 
+      "selected": true, 
+      "prefix": "fd00:0:0:6e::/64", 
+      "nexthops": [
+        {
+          "interfaceName": "a2-c1-eth4", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }
+      ]
+    }
+  ], 
+  "fd00:0:0:4::/64": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 20, 
+      "selected": true, 
+      "prefix": "fd00:0:0:4::/64", 
+      "nexthops": [
+        {
+          "interfaceName": "a2-a1-eth0", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }
+      ]
+    }
+  ], 
+  "fd00:0:0:13::/64": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 20, 
+      "selected": true, 
+      "prefix": "fd00:0:0:13::/64", 
+      "nexthops": [
+        {
+          "interfaceName": "a2-a3-eth1", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }
+      ]
+    }
+  ], 
+  "fd00:0:0:30::/64": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 30, 
+      "selected": true, 
+      "prefix": "fd00:0:0:30::/64", 
+      "nexthops": [
+        {
+          "interfaceName": "a2-b1-eth2", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }
+      ]
+    }
+  ], 
+  "fd00:0:0:73::/64": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 4134, 
+      "selected": true, 
+      "prefix": "fd00:0:0:73::/64", 
+      "nexthops": [
+        {
+          "interfaceName": "a2-a1-eth0", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-a3-eth1", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-b1-eth2", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-b3-eth3", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-c1-eth4", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-c3-eth5", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-d1-eth6", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-d3-eth7", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }
+      ]
+    }
+  ], 
+  "fd00:0:0:24::/64": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 20, 
+      "selected": true, 
+      "prefix": "fd00:0:0:24::/64", 
+      "nexthops": [
+        {
+          "interfaceName": "a2-d3-eth7", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }
+      ]
+    }
+  ], 
+  "fd00:0:0:32::/64": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 20, 
+      "selected": true, 
+      "prefix": "fd00:0:0:32::/64", 
+      "nexthops": [
+        {
+          "interfaceName": "a2-c1-eth4", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }
+      ]
+    }
+  ], 
+  "fd00:0:0:59::/64": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 4124, 
+      "selected": true, 
+      "prefix": "fd00:0:0:59::/64", 
+      "nexthops": [
+        {
+          "interfaceName": "a2-c1-eth4", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }
+      ]
+    }
+  ], 
+  "fd00:0:0:68::/64": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 4124, 
+      "selected": true, 
+      "prefix": "fd00:0:0:68::/64", 
+      "nexthops": [
+        {
+          "interfaceName": "a2-b1-eth2", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }
+      ]
+    }
+  ], 
+  "fd00:0:0:5f::/64": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 4134, 
+      "selected": true, 
+      "prefix": "fd00:0:0:5f::/64", 
+      "nexthops": [
+        {
+          "interfaceName": "a2-a1-eth0", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-a3-eth1", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-b1-eth2", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-b3-eth3", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-c1-eth4", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-c3-eth5", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-d1-eth6", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-d3-eth7", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }
+      ]
+    }
+  ], 
+  "fd00:0:0:5a::/64": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 4124, 
+      "selected": true, 
+      "prefix": "fd00:0:0:5a::/64", 
+      "nexthops": [
+        {
+          "interfaceName": "a2-c3-eth5", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }
+      ]
+    }
+  ], 
+  "fd00:0:0:6f::/64": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 4124, 
+      "selected": true, 
+      "prefix": "fd00:0:0:6f::/64", 
+      "nexthops": [
+        {
+          "interfaceName": "a2-c3-eth5", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }
+      ]
+    }
+  ], 
+  "fd00:0:0:4d::/64": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 20, 
+      "selected": true, 
+      "prefix": "fd00:0:0:4d::/64", 
+      "nexthops": [
+        {
+          "interfaceName": "a2-d3-eth7", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }
+      ]
+    }
+  ], 
+  "2001:db8:f::2:6/128": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 4134, 
+      "selected": true, 
+      "prefix": "2001:db8:f::2:6/128", 
+      "nexthops": [
+        {
+          "interfaceName": "a2-a1-eth0", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-a3-eth1", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-b1-eth2", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-b3-eth3", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-c1-eth4", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-c3-eth5", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-d1-eth6", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-d3-eth7", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }
+      ]
+    }
+  ], 
+  "fd00:0:0:20::/64": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 20, 
+      "selected": true, 
+      "prefix": "fd00:0:0:20::/64", 
+      "nexthops": [
+        {
+          "interfaceName": "a2-b3-eth3", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }
+      ]
+    }
+  ], 
+  "fd00:0:0:43::/64": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 30, 
+      "selected": true, 
+      "prefix": "fd00:0:0:43::/64", 
+      "nexthops": [
+        {
+          "interfaceName": "a2-b3-eth3", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }
+      ]
+    }
+  ], 
+  "fd00:0:0:8d::/64": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 30, 
+      "selected": true, 
+      "prefix": "fd00:0:0:8d::/64", 
+      "nexthops": [
+        {
+          "interfaceName": "a2-d3-eth7", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }
+      ]
+    }
+  ], 
+  "fd00:0:0:3::/64": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 20, 
+      "selected": true, 
+      "prefix": "fd00:0:0:3::/64", 
+      "nexthops": [
+        {
+          "interfaceName": "a2-a1-eth0", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }
+      ]
+    }
+  ], 
+  "fd00:0:0:10::/64": [
+    {
+      "protocol": "connected", 
+      "selected": true, 
+      "prefix": "fd00:0:0:10::/64", 
+      "nexthops": [
+        {
+          "directlyConnected": true, 
+          "interfaceName": "a2-r1-eth10", 
+          "fib": true, 
+          "flags": 3, 
+          "active": true
+        }
+      ]
+    }
+  ], 
+  "fd00:0:0:6::/64": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 20, 
+      "selected": true, 
+      "prefix": "fd00:0:0:6::/64", 
+      "nexthops": [
+        {
+          "interfaceName": "a2-a1-eth0", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }
+      ]
+    }
+  ], 
+  "fd00:0:0:87::/64": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 4134, 
+      "selected": true, 
+      "prefix": "fd00:0:0:87::/64", 
+      "nexthops": [
+        {
+          "interfaceName": "a2-a1-eth0", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-a3-eth1", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-b1-eth2", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-b3-eth3", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-c1-eth4", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-c3-eth5", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-d1-eth6", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }, 
+        {
+          "interfaceName": "a2-d3-eth7", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }
+      ]
+    }
+  ], 
+  "fd00:0:0:82::/64": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 4124, 
+      "selected": true, 
+      "prefix": "fd00:0:0:82::/64", 
+      "nexthops": [
+        {
+          "interfaceName": "a2-c3-eth5", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }
+      ]
+    }
+  ], 
+  "fd00:0:0:e::/64": [
+    {
+      "protocol": "connected", 
+      "selected": true, 
+      "prefix": "fd00:0:0:e::/64", 
+      "nexthops": [
+        {
+          "directlyConnected": true, 
+          "interfaceName": "a2-q1-eth8", 
+          "fib": true, 
+          "flags": 3, 
+          "active": true
+        }
+      ]
+    }
+  ], 
+  "fd00:0:0:f::/64": [
+    {
+      "protocol": "connected", 
+      "selected": true, 
+      "prefix": "fd00:0:0:f::/64", 
+      "nexthops": [
+        {
+          "directlyConnected": true, 
+          "interfaceName": "a2-q3-eth9", 
+          "fib": true, 
+          "flags": 3, 
+          "active": true
+        }
+      ]
+    }
+  ], 
+  "fd00:0:0:2b::/64": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 20, 
+      "selected": true, 
+      "prefix": "fd00:0:0:2b::/64", 
+      "nexthops": [
+        {
+          "interfaceName": "a2-b3-eth3", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }
+      ]
+    }
+  ], 
+  "2001:db8:f::3:7/128": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 4124, 
+      "selected": true, 
+      "prefix": "2001:db8:f::3:7/128", 
+      "nexthops": [
+        {
+          "interfaceName": "a2-d3-eth7", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }
+      ]
+    }
+  ], 
+  "fd00:0:0:1a::/64": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 20, 
+      "selected": true, 
+      "prefix": "fd00:0:0:1a::/64", 
+      "nexthops": [
+        {
+          "interfaceName": "a2-b1-eth2", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }
+      ]
+    }
+  ], 
+  "fd00:0:0:12::/64": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 20, 
+      "selected": true, 
+      "prefix": "fd00:0:0:12::/64", 
+      "nexthops": [
+        {
+          "interfaceName": "a2-a3-eth1", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }
+      ]
+    }
+  ], 
+  "2001:db8:f::3:1/128": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 20, 
+      "selected": true, 
+      "prefix": "2001:db8:f::3:1/128", 
+      "nexthops": [
+        {
+          "interfaceName": "a2-b3-eth3", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }
+      ]
+    }
+  ], 
+  "fd00:0:0:5c::/64": [
+    {
+      "distance": 0, 
+      "protocol": "openfabric", 
+      "metric": 4124, 
+      "selected": true, 
+      "prefix": "fd00:0:0:5c::/64", 
+      "nexthops": [
+        {
+          "interfaceName": "a2-d3-eth7", 
+          "fib": true, 
+          "flags": 11, 
+          "active": true, 
+          "onLink": true, 
+          "afi": "ipv6"
+        }
+      ]
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
 #
-# test_fabricd_folded_clos.py
+# test_fabricd_butterfly_03_numbered_multiple_tier0.py
 # Part of NetDEF Topology Tests
 #
 # Copyright (c) 2018 by
@@ -23,7 +23,7 @@
 #
 
 """
-test_fabricd_folded_clos.py: Test for OpenFabric Folded Clos Topo.
+test_fabricd_butterfly_03_numbered_multiple_tier0.py: Test for OpenFabric Butterfly Topo.
 """
 
 import os

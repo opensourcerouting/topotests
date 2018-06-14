@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
 #
-# test_fabricd_butterfly.py
+# test_fabricd_butterfly_01_numbered.py
 # Part of NetDEF Topology Tests
 #
 # Copyright (c) 2018 by
