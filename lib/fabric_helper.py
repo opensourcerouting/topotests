@@ -24,6 +24,8 @@
 
 import re
 import json
+import os
+import sys
 
 from time import sleep
 from pprint import pprint
@@ -247,6 +249,8 @@ def configure_fabric_routers(tgen, json_topo, nodes=None):
             '/tmp/fabricd.conf'
             #os.path.join(CWD, '{}/fabricd.conf'.format(rname))
         )
+    os.remove('/tmp/zebra.conf')
+    os.remove('/tmp/fabricd.conf')
 
 
 def wait_fabric_convergence(tgen, testnode, timeout=60, log='Waiting for convergence (timeout {}s)'):
@@ -284,22 +288,37 @@ def verify_tier_levels(tgen, json_topo, tiers):
     logger.info('verifying Tier levels on all routers')
 
     errors = ''
-    for routerN in json_topo['routers'].items():
-        if json_topo['routers'][routerN[0]]['started'] == 1:
-            ofsummary = tgen.gears[routerN[0]].vtysh_cmd('show openfabric summary', isjson=False)
-            m = re.search('Tier: ([0-9a-z]+)', ofsummary, re.DOTALL)
-            if m:
-                actualTier = m.group(1)
-                #logger.info('Router {} reports tier {}'.format(routerN[0], actualTier))
 
-                if str(tiers[fabric_row(routerN[0])]) != actualTier:
-                    errors = errors+'Router {} shows tier {}, but expected tier {}\n'.format( \
-                        routerN[0], actualTier, tiers[fabric_row(routerN[0])])
-            else:
-                errors = errors+'No Tier level found on Router {}'.format(routerN[0])
+    callingTest = os.path.basename(sys._current_frames().values()[0].f_back.f_globals['__file__'])
+    callingProc = sys._getframe(1).f_code.co_name
+    tiercalc_logfile = '/tmp/tierlevel.{0}.{1}.calc.txt'.format(callingTest, callingProc)
+
+    with open(tiercalc_logfile, 'w') as tiercalc_log:
+        for routerN in json_topo['routers'].items():
+            if json_topo['routers'][routerN[0]]['started'] == 1:
+                ofsummary = tgen.gears[routerN[0]].vtysh_cmd('show openfabric summary', isjson=False)
+                tiercalc_log.write('## Router {}\n```\n'.format(routerN[0]))
+                m = re.search('Tier: ([0-9a-z]+)', ofsummary, re.DOTALL)
+                if m:
+                    actualTier = m.group(1)
+                    #logger.info('Router {} reports tier {}'.format(routerN[0], actualTier))
+                    if str(tiers[fabric_row(routerN[0])]) != actualTier:
+                        errors = errors+'Router {} shows tier {}, but expected tier {}\n'.format( \
+                            routerN[0], actualTier, tiers[fabric_row(routerN[0])])
+                        tiercalc_log.write('** Wrong Tier. Shows {0}, but expected {1} **\n```\n'.format(actualTier, tiers[fabric_row(routerN[0])]))
+                    else:
+                        tiercalc_log.write('Tier {0} is correct\n```\n'.format(actualTier))
+                else:
+                    errors = errors+'No Tier level found on Router {}'.format(routerN[0])
+                    tiercalc_log.write('** NO Tier. Shows UNDEFINED, but expected {1} **\n```\n'.format(tiers[fabric_row(routerN[0])]))
+
+                tiercalc_log.write(tgen.gears[routerN[0]].run('cat fabricd.log | grep OpenFabric | grep -Ei tier\|found\|T0'))
+                tiercalc_log.write('```\n\n')
 
     if errors != "":
         errors.rstrip()
+    else:
+        os.remove(tiercalc_logfile)
 
     return errors
 
