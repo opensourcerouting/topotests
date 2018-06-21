@@ -100,7 +100,7 @@ def test_check_NO_convergence():
 
     tgen = get_topogen()
 
-    if wait_fabric_convergence(tgen, 'c2', log='Waiting for convergence - (SHOULD NOT CONVERGE) (timeout {}s)'):
+    if wait_fabric_convergence(tgen, 'c2', timeout=120, log='Waiting for convergence - (SHOULD NOT CONVERGE) (timeout {}s)'):
         fatal_error = 'Topology converged with single Tier 0'
         raise AssertionError(fatal_error)
 
