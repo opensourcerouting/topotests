@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
 #
-# test_fabricd_folded_clos.py
+# test_fabricd_folded_clos_05_unnumbered.py
 # Part of NetDEF Topology Tests
 #
 # Copyright (c) 2018 by
@@ -23,7 +23,24 @@
 #
 
 """
-test_fabricd_folded_clos.py: Test for OpenFabric Folded Clos Topo.
+test_fabricd_folded_clos_05_unnumbered.py: Test for OpenFabric Folded Clos Topo.
+
+Unnumbered topology
+
+Test steps
+- Bring up basic 4x5 topo   with A0 and D3 as tier 0 marked
+- Verify for topology to converge
+- Verify tier on all routers
+- Verify routing table on all routers
+- stop A1, verify routing table
+- restart A1
+- stop B2, verify routing table
+- restart B2
+- stop C3, verify routing table
+- restart C3
+- stop D3, verify routing table
+- restart D3
+- Verify routing table on all routers
 """
 
 import os
