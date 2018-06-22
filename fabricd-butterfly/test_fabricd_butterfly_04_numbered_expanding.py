@@ -24,6 +24,19 @@
 
 """
 test_fabricd_butterfly_04_numbered_expanding.py: Test for OpenFabric Butterfly Topo.
+
+Numbered topology
+
+Test steps
+- Create 6x5 topology (A-F, 0-4), but start only 4x5 topology with 
+  B0 and G4 as tier 0 (other routers stay disabled)
+- Verify for topology to converge
+- Verify tier on all routers
+- Verify routing table on all routers
+- Enable remaining routers 
+- Verify for topology to re-converge
+- Verify tier on all routers
+- Verify routing table on all routers
 """
 
 import os

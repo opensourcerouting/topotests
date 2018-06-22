@@ -24,6 +24,14 @@
 
 """
 test_fabricd_butterfly_07_unnumbered_multiple_tier0.py: Test for OpenFabric Butterfly Topo.
+
+Unnumbered topology
+
+Test steps
+- Bring up basic 4x5 topo - with B0, C0, F0, G0, B4, C4, G4, F4 as tier 0 marked
+- Verify for topology to converge
+- Verify tier on all routers
+- Verify routing table on all routers
 """
 
 import os

@@ -24,6 +24,16 @@
 
 """
 test_fabricd_butterfly_02_numbered_single_tier0.py: Test for OpenFabric Butterfly Topo.
+
+Numbered topology
+
+Test steps
+- Bring up butterfly topology - with only B0 as Tier 0 marked
+- Verify for topology **not** to converge (can't converge with a single Tier0 marked node)
+- Mark D4 as a 2nd tier 0
+- Verify for topology to converge
+- Verify tier on all routers
+- Verify routing table on all routers
 """
 
 import os

@@ -24,6 +24,35 @@
 
 """
 test_fabricd_butterfly_05_unnumbered.py: Test for OpenFabric Butterfly Topo.
+
+Unnumbered topology
+
+Test steps
+- Bring up butterfly topology with B0 and G4 marked as Tier 0
+- Verify for topology to converge
+- Verify tier on all routers
+- Verify routing table on all routers
+- stop A1, verify routing table
+- restart A1
+- stop E1, verify routing table
+- restart E1
+- stop B2, verify routing table
+- restart B2
+- stop F2, verify routing table
+- restart F2
+- stop D3, verify routing table
+- restart D3
+- stop H3, verify routing table
+- restart H3
+- stop B0, verify routing table
+- restart B0
+- stop C4, verify routing table
+- restart C4
+- stop G0, verify routing table
+- restart G0
+- stop F4, verify routing table
+- restart F4
+- Verify routing table on all routers
 """
 
 import os
